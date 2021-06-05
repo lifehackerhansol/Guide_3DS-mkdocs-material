@@ -3,6 +3,7 @@ theme: slate
 copyright: Copyright &copy; 2021 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.
 site_description: 3DS Hacks Guide.
 site_author: NH Discord Server.
+prev_next_buttons_location: none
 
 nav:
     - Home: index.md
