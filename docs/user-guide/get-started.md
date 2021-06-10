@@ -1,7 +1,7 @@
 # Get Started
 ---
 
-### Required Reading
+## Required Reading
 
 !!! tip ""
     If you have hacked your 3DS in the past, or you purchased your 3DS second-hand, it is possible that your console already has custom firmware. You should [check for CFW](checking-for-cfw) before proceeding.
@@ -17,7 +17,7 @@ Your device version can be found at the bottom right of the top screen of the Sy
 	
     While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
 
-### Version Table
+## Version Table
 
 The letter and number after the system version (for example, 11.14.0-**46U**) is not relevant in this version table.
 
