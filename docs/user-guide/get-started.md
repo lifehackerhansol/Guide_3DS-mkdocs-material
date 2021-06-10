@@ -39,7 +39,7 @@ The letter and number after the system version (for example, 11.14.0-**46U**) is
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="../../installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="../installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
     </tr>
 	<tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
@@ -48,11 +48,14 @@ The letter and number after the system version (for example, 11.14.0-**46U**) is
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">11.14.0 (latest version)</td>
-      <td style="text-align: center; font-weight: bold;"><a href="../../installing-boot9strap-(browser)">Installing boot9strap (Browser)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">ALL VERSIONS<br></td>
-      <td style="text-align: center; font-weight: bold;"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="../../ntrboot/ntrboot">ntrboot</a><br><sub>(Requires a Compatible Flashcart)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">or</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Installing boot9strap (Hardmod)</a><br><sub>(Requires Soldering)</sub></p></td>
+      <td style="text-align: center; font-weight: bold;"><a href="../installing-boot9strap-(browser)">Installing boot9strap (Browser)</a></td>
     </tr>
   </tbody>
 </table>
+
+---
+
+A number of methods that work on all versions are available, but require additional hardware. If possible, you should follow one of the software methods listed above instead.
+
+1. [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot)) - requires compatible DS flashcart
+1. [Installing boot9strap (Hardmod)](installing-boot9strap-(hardmod)) - requires soldering
