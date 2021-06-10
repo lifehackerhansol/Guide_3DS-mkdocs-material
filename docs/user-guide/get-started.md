@@ -11,7 +11,7 @@ Select the appropriate page for your version from the chart below. Note that the
 Your device version can be found at the bottom right of the top screen of the System Settings.
 
 !!! tip ""
-	<img src="img/screenshots/system-version.png" alt="System Version">
+	<img src="img/system-version.png" alt="System Version">
 
 !!! danger "Important"
     Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3XSwift (Mac)](f3xswift-(mac))!

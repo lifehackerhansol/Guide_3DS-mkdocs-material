@@ -168,7 +168,7 @@ ___
 	For information on changing your device to another region, check out the [Region Changing](region-changing) page.
 
 !!! tip "Using GodMode9's features"
-	For information on using GodMode9's various features, check out the [GodMode9 Usage](godmode9-usage) page.
+	For information on using GodMode9's various features, check out the [GodMode9 Usage](docs/extras/godmode9-usage) page.
 
 !!! tip "Using Luma3DS's features"
 	For information on using Luma3DS's various features, check out [its wiki](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
