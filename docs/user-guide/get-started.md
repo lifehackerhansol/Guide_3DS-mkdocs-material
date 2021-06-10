@@ -12,10 +12,8 @@ Your device version can be found at the bottom right of the top screen of the Sy
 
 <img src="img/screenshots/system-version.png" alt="System Version">
 
-!!! danger ""
+!!! danger "Important"
     Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3XSwift (Mac)](f3xswift-(mac))!
-
-!!! danger ""
     While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
 
 ### Version Table
