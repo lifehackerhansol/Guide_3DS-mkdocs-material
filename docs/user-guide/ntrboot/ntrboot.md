@@ -77,7 +77,7 @@ ___
 This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your NDS.
 
 !!! tip ""
-Continue to [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
+	Continue to [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
 
 ___
 
@@ -86,4 +86,4 @@ ___
 This method requires temporary access to a Nintendo DSi that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your DSi. This means that your flashcart must support launching `.nds` files on your DSi's version. See the flashcart table above for more information.
 
 !!! tip ""
-Continue to [Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
+	Continue to [Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
