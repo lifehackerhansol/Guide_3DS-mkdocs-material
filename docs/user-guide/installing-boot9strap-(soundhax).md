@@ -1,11 +1,11 @@
 # Installing boot9strap (Soundhax)
 ---
 
-### Required Reading
+## Required Reading
 
 Soundhax (when combined with universal-otherapp) is compatible with versions 1.0.0 through 11.3.0 in all regions.
 
-### What You Need
+## What You Need
 
 - The latest release of [Soundhax](http://soundhax.com) *(for your region, device, and version)*
   - If Soundhax appears in your browser as an unplayable video, press Ctrl+S or Cmd+S to save it to your computer
@@ -14,9 +14,9 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 - The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 - The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 
-### Instructions
+## Instructions
 
-#### Section I - Prep Work
+### Section I - Prep Work
 
 1. Power off your device
 1. Insert your SD card into your computer
@@ -29,7 +29,7 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 1. Reinsert your SD card into your device
 1. Power on your device
 
-#### Section II - Launching SafeB9SInstaller
+### Section II - Launching SafeB9SInstaller
 
 1. Reinsert your SD card into your device
 1. Power on your device
@@ -48,13 +48,13 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
-#### Section III - Installing boot9strap
+### Section III - Installing boot9strap
 
 1. Wait for all checks to complete
 1. When prompted, input the key combo given on the top screen to install boot9strap
 1. Once it has completed, press (A) to reboot your device
 
-#### Section IV - Configuring Luma3DS
+### Section IV - Configuring Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
    - If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
@@ -65,5 +65,6 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+!!! tip ""
+	### Continue to [Finalizing Setup](finalizing-setup)
 

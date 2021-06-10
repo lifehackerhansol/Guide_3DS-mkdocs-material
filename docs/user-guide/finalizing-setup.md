@@ -1,7 +1,7 @@
 # Finalizing Setup
 ---
 
-### Required Reading
+## Required Reading
 
 The file `boot.firm` is what is launched by boot9strap itself after it finishes loading off of NAND, and can be any valid arm9 payload in the FIRM format. This file can be replaced at any time, although Luma3DS allows for the launch of other arm9 payloads in the FIRM format using the Luma3DS chainloader.
 
@@ -159,27 +159,22 @@ ___
 
 	You can now press (L) + (Down) + (Select) while the system is booted to open the Rosalina menu integrated into Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 
-<div class="notice--info">{{ notice-6 | markdownify }}</div>
+!!! tip "Upgrading the SD card"
+	If you would like to upgrade to a bigger sized SD card, all you have to do is format your new SD card as FAT32 and copy paste the contents of the old SD card onto the new SD card.
 
-{% capture notice-6 %}
-If you would like to upgrade to a bigger sized SD card, all you have to do is format your new SD card as FAT32 and copy paste the contents of the old SD card onto the new SD card.
+	If your new SD card is bigger than 32GB, then you have to use a different tool to format it, such as [guiformat (Windows)](formatting-sd-(windows)), [Disk Utility (Mac)](formatting-sd-(mac)), or [cfdisk (Linux)](formatting-sd-(linux)).
 
-If your new SD card is bigger than 32GB, then you have to use a different tool to format it, such as [guiformat (Windows)](formatting-sd-(windows)), [Disk Utility (Mac)](formatting-sd-(mac)), or [cfdisk (Linux)](formatting-sd-(linux)).
-{% endcapture %}
+!!! tip "Changing region"
+	For information on changing your device to another region, check out the [Region Changing](region-changing) page.
 
-<div class="notice--info">{{ notice-6 | markdownify }}</div>
+!!! tip "Using GodMode9's features"
+	For information on using GodMode9's various features, check out the [GodMode9 Usage](godmode9-usage) page.
 
-For information on changing your device to another region, check out the [Region Changing](region-changing) page.
-{: .notice--success}
+!!! tip "Using Luma3DS's features"
+	For information on using Luma3DS's various features, check out [its wiki](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
 
-For information on using GodMode9's various features, check out the [GodMode9 Usage](godmode9-usage) page.
-{: .notice--success}
+!!! tip "Applying Themes"
+	For information on installing custom themes and splash screens, check out [Theme Plaza](https://themeplaza.art/).
 
-For information on using Luma3DS's various features, check out [its wiki](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
-{: .notice--success}
-
-For information on installing custom themes and splash screens, check out [Theme Plaza](https://themeplaza.art/).
-{: .notice--success}
-
-For information on using Gateshark cheat codes on Luma3DS, check out [Checkpoint](https://github.com/FlagBrew/Checkpoint).
-{: .notice--success}
+!!! tip "Using cheat codes"
+	For information on using Gateshark cheat codes on Luma3DS, check out [Checkpoint](https://github.com/FlagBrew/Checkpoint).

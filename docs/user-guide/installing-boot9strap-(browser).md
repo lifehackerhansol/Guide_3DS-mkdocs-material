@@ -1,20 +1,20 @@
 # Installing boot9strap (Browser)
 ---
 
-### Required Reading
+## Required Reading
 
 new-browserhax-xl/old-browserhax-xl (when combined with universal-otherapp) is compatible with version 11.14.0 on all 3DS devices with Internet Browser access.
 
-### What You Need
+## What You Need
 
 * The latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; not the `devkit` file, not the `ntr` file)*
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) 
 
-### Instructions
+## Instructions
 
-#### Section I - Prep Work
+### Section I - Prep Work
 
 1. Power off your device
 1. Insert your SD card into your computer
@@ -27,7 +27,7 @@ new-browserhax-xl/old-browserhax-xl (when combined with universal-otherapp) is c
 1. Reinsert your SD card into your device
 1. Power on your device
 
-#### Section II - Launching SafeB9SInstaller
+### Section II - Launching SafeB9SInstaller
 
 1. Power on your device
 1. On the HOME Menu, press the Left and Right shoulder buttons together to open the camera
@@ -36,13 +36,13 @@ new-browserhax-xl/old-browserhax-xl (when combined with universal-otherapp) is c
    - If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
-#### Section III - Installing boot9strap
+### Section III - Installing boot9strap
 
 1. Wait for all checks to complete
 1. When prompted, input the key combo given on the top screen to install boot9strap
 1. Once it has completed, press (A) to reboot your device
 
-#### Section IV - Configuring Luma3DS
+### Section IV - Configuring Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
    - If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
@@ -52,4 +52,5 @@ new-browserhax-xl/old-browserhax-xl (when combined with universal-otherapp) is c
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+!!! tip ""
+	### Continue to [Finalizing Setup](finalizing-setup)
