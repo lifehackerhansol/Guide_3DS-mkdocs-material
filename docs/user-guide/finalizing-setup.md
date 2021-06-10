@@ -1,8 +1,5 @@
+# Finalizing Setup"
 ---
-title: "Finalizing Setup"
----
-
-{% include toc title="Table of Contents" %}
 
 ### Required Reading
 
@@ -57,11 +54,11 @@ During this process, we also setup programs such as the following:
 
 #### Section II - Updating the System
 
-If, while following a previous version of this guide, you CTRTransfered your *New 3DS* to 2.1.0, you should now [restore your NAND backup](godmode9-usage#restoring-a-nand-backup) before doing this section.
-{: .notice--danger}
+!!! danger "Important"
+	If, while following a previous version of this guide, you CTRTransfered your *New 3DS* to 2.1.0, you should now [restore your NAND backup](godmode9-usage#restoring-a-nand-backup) before doing this section.
 
-If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
-{: .notice--info}
+!!! tip "EmuNAND"
+	If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
 
 1. Update your device by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
   + Updates while using B9S + Luma (what you have) are safe
@@ -151,19 +148,16 @@ If, before following this guide, you already had an EmuNAND setup and would like
 
 ___
 
-#### Information and Notes
+!!! tip "Information and Notes"
+	You will now boot Luma3DS CFW by default.
 
-{% capture notice-6 %}
-You will now boot Luma3DS CFW by default.
+	You can now hold (Select) on boot to launch the Luma3DS configuration menu.
 
-You can now hold (Select) on boot to launch the Luma3DS configuration menu.
+	You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).
 
-You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).
+	You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).
 
-You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).
-
-You can now press (L) + (Down) + (Select) while the system is booted to open the Rosalina menu integrated into Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
-{% endcapture %}
+	You can now press (L) + (Down) + (Select) while the system is booted to open the Rosalina menu integrated into Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 

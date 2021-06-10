@@ -52,4 +52,4 @@ new-browserhax-xl/old-browserhax-xl (when combined with universal-otherapp) is c
 
 ___
 
-> ### Continue to [Finalizing Setup](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
