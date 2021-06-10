@@ -18,7 +18,7 @@ During this process, we also setup programs such as the following:
 +  **DSP1** *(allows homebrew applications to have sound)*
 +  **ctr-no-timeoffset** *(removes the rtc offset so that the home menu and rtc timestamps match)*
 
-### What You Need
+## What You Need
 
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
 * The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) *(the `.cia` file)*
@@ -29,9 +29,9 @@ During this process, we also setup programs such as the following:
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
 * The latest release of [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 
-### Instructions
+## Instructions
 
-#### Section I - Prep Work
+### Section I - Prep Work
 
 1. Power off your device
 1. Insert your SD card into your computer
@@ -52,7 +52,7 @@ During this process, we also setup programs such as the following:
 1. Reinsert your SD card into your device
 1. Power on your device
 
-#### Section II - Updating the System
+### Section II - Updating the System
 
 !!! danger "Important"
 	If, while following a previous version of this guide, you CTRTransfered your *New 3DS* to 2.1.0, you should now [restore your NAND backup](godmode9-usage#restoring-a-nand-backup) before doing this section.
@@ -66,7 +66,7 @@ During this process, we also setup programs such as the following:
   + If this gives you an error, set your DNS settings to "auto"
   + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#system-update-error-after-installing-cfw)
 
-#### Section III - Homebrew Launcher
+### Section III - Homebrew Launcher
 
 1. Launch the Download Play application (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
 1. Wait until you see the two buttons
@@ -85,19 +85,19 @@ During this process, we also setup programs such as the following:
 1. Press (Start) to return to the Homebrew Launcher
 1. Launch FBI from the list of homebrew
 
-#### Section IV - Installing CIAs
+### Section IV - Installing CIAs
 
 1. Navigate to `SD` -> `cias`
 1. Select "\<current directory>"
 1. Select the "Install and delete all CIAs" option, then press (A) to confirm
 1. Press (Home), then close Download Play
 
-#### Section V - DSP Dump
+### Section V - DSP Dump
 
 1. Launch the DSP1 application
 1. Once it has completed, press (B) to self-delete the app and return to the home menu
 
-#### Section VI - CTRNAND Luma3DS
+### Section VI - CTRNAND Luma3DS
 
 1. Power off your device
 1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
@@ -113,14 +113,14 @@ During this process, we also setup programs such as the following:
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Press (A) to continue
 
-#### Section VII - Cleanup SD Card
+### Section VII - Cleanup SD Card
 
 1. Select "Cleanup SD Card"
 1. When prompted, press (A) to proceed
 1. Press (A) to continue
 1. Press (B) to return to the main menu
 
-#### Section VIII - Backup Essential Files
+### Section VIII - Backup Essential Files
 
 1. Select "Backup Options"
 1. Select "SysNAND Backup"
