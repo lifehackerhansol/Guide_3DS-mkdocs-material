@@ -13,7 +13,7 @@ nav:
         - Methods: 
             - 'Soundhax': 'user-guide/installing-boot9strap-(soundhax).md'  
             - 'Browser' : 'user-guide/installing-boot9strap-(browser).md'
-        - 'Finalizing Setup': 'user-guide/finalizing-setup.md'
+        - 'Finalizing Setup': 'finalizing-setup.md'
     - Extras:
         - 'Blocking Updates': 'extras/blocking_updates.md'
         - 'Restoring a NAND Backup': 'extras/nandrestore.md'
