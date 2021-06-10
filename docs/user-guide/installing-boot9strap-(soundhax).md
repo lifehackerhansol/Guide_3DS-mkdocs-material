@@ -8,7 +8,7 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 ## What You Need
 
 - The latest release of [Soundhax](http://soundhax.com) *(for your region, device, and version)*
-  - If Soundhax appears in your browser as an unplayable video, press Ctrl+S or Cmd+S to save it to your computer
+    - If Soundhax appears in your browser as an unplayable video, press Ctrl+S or Cmd+S to save it to your computer
 - The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 - The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; not the `devkit` file, not the `ntr` file)*
 - The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
@@ -38,11 +38,11 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 <img src="img/screenshots/soundhax-welcome.png" alt="Welcome Screen">
 
 1. If you've never opened Nintendo 3DS Sound before and get tips on how to use it from a bird icon, go through all of the bird tips, then close the app normally and relaunch it
-   - In this situation, launching Soundhax immediately would cause these tips to appear on every launch of the Nintendo 3DS Sound until this is done
+    - In this situation, launching Soundhax immediately would cause these tips to appear on every launch of the Nintendo 3DS Sound until this is done
 1. Go to `/SDCARD`, then play "<3 nedwill 2016"
-   - This may take many tries
-   - If it freezes, force the console to power off by holding the power button, then try again
-   - If your console displays a red and white screen *and* your console is on system version 9.4.0, 9.5.0, or 9.6.0, try following [Homebrew Launcher (Soundhax)](boot9strap/homebrew-launcher-(soundhax))
+    - This may take many tries
+    - If it freezes, force the console to power off by holding the power button, then try again
+    - If your console displays a red and white screen *and* your console is on system version 9.4.0, 9.5.0, or 9.6.0, try following [Homebrew Launcher (Soundhax)](boot9strap/homebrew-launcher-(soundhax))
 
 <img src="img/screenshots/soundhax-launch.png" alt="Launching Soundhax">
 

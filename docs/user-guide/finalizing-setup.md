@@ -81,7 +81,7 @@ During this process, we also setup programs such as the following:
 1. Your device should load the Homebrew Launcher
 1. Launch ctr-no-timeoffset from the list of homebrew
 1. Press (A) to set the offset to 0
-  + This will set the system clock to match the RTC date&time (which we will set soon)
+   + This will set the system clock to match the RTC date&time (which we will set soon)
 1. Press (Start) to return to the Homebrew Launcher
 1. Launch FBI from the list of homebrew
 
@@ -101,7 +101,7 @@ During this process, we also setup programs such as the following:
 
 1. Power off your device
 1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
-  + If you do not boot into GodMode9, ensure that `GodMode9.firm` is in `/luma/payloads/` and that `payloads` is correctly spelled
+   + If you do not boot into GodMode9, ensure that `GodMode9.firm` is in `/luma/payloads/` and that `payloads` is correctly spelled
 1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
 1. Press (Home) to bring up the action menu
@@ -125,8 +125,8 @@ During this process, we also setup programs such as the following:
 1. Select "Backup Options"
 1. Select "SysNAND Backup"
 1. Press (A) to confirm
-  + This process will take some time
-  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
+   + This process will take some time
+   + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
 1. Press (A) to continue
 1. Press (B) to return to the main menu
 1. Select "Dump Options"
@@ -140,8 +140,8 @@ During this process, we also setup programs such as the following:
 1. Select "Poweroff system" to power off your device
 1. Insert your SD card into your computer
 1. Copy `<date>_<serialnumber>_sysnand_###.bin`, `<date>_<serialnumber>_sysnand_###.bin.sha`, `essential.exefs`, `<serialnumber>_boot9_###.bin`, and `<serialnumber>_boot11_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
-  + Make backups in multiple locations (such as online file storage)
-  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+   + Make backups in multiple locations (such as online file storage)
+   + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` and `<date>_<serialnumber>_sysnand_###.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
 1. Reinsert your SD card into your device
 1. Power on your device
