@@ -1,14 +1,11 @@
----
-title: "Installing boot9strap (ntrboot)"
+# Installing boot9strap (ntrboot)
 ---
 
-{% include toc title="Table of Contents" %}
-
-### Required Reading
+## Required Reading
 
 To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
-### What You Need
+## What You Need
 
 * A magnet that triggers the sleep mode of your device (if using a folding style device)
 * Your ntrboot flashed flashcart
@@ -16,46 +13,47 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; not the `devkit` file, not the `ntr` file)*
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) 
 
-### Instructions
+## Instructions
 
-#### Section I - Prep Work
+### Section I - Prep Work
 
 1. Power off your device
 1. Insert your console's SD card into your computer
-  + This is the SD card from your 3DS, *not* the SD card from your flashcart
+    + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Copy `SafeB9SInstaller.firm` to the root of your console's SD card and rename it to `boot.firm`
 1. Copy `boot.3dsx` from the Luma3DS `.zip` to the root of your console's SD card
 1. Create a folder named `boot9strap` on the root of your console's SD card
 1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your console's SD card
 
+!!! tip ""
     ![]({{ "/images/screenshots/boot9strap-ntrboot-file-layout.png" | absolute_url }})
     {: .notice--info}
 
 1. Reinsert your SD card into your 3DS
 1. Power on your device
 
-#### Section II - ntrboot
+### Section II - ntrboot
 
 1. Use the magnet to find the spot on your device where the sleep sensor is triggered
-  + This step is not needed on the old 2DS (which has a sleep mode switch)
+    + This step is not needed on the old 2DS (which has a sleep mode switch)
 1. Power off your device
 1. Insert your flashcart into your device
 1. Place the magnet on your device to trigger the sleep sensor
-  + On old 2DS, you should instead enable the sleep mode switch
+    + On old 2DS, you should instead enable the sleep mode switch
 1. Hold (Start) + (Select) + (X) + (Power) for several seconds, then release the buttons
-  + It may take a few attempts to get this to work because the positioning is awkward
+    + It may take a few attempts to get this to work because the positioning is awkward
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
-#### Section III - Installing boot9strap
+### Section III - Installing boot9strap
 
 1. Wait for all checks to complete
 1. Remove the magnet from your device
-  + On old 2DS, you should instead disable the sleep mode switch
+    + On old 2DS, you should instead disable the sleep mode switch
 1. When prompted, input the key combo given on the top screen to install boot9strap
 1. Once it has completed, force your device to power off by holding down the power button
-  + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
+    + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
 
-#### Section IV - Configuring Luma3DS
+### Section IV - Configuring Luma3DS
 
 1. Insert your SD card into your computer
 1. Delete `boot.firm` from the root of your SD card
@@ -63,16 +61,16 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 1. Reinsert your SD card into your device
 1. Power on your device
 1. Your device should have booted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+    + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:
-  + **"Show NAND or user string in System Settings"**
+    + **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
-  + If you get an error, just continue the next page
+    + If you get an error, just continue the next page
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
-{: .notice--primary}
+!!! tip ""
+	### Continue to [Finalizing Setup](../finalizing-setup)
 
 ___
 
@@ -82,15 +80,15 @@ Note that the Acekard 2i retains its ability to launch `.nds` files while having
 
 Do not follow this section until you have completed the rest of the instructions on this page.
 
-#### Section V - Removing ntrboot
+### Section V - Removing ntrboot
 
-##### What You Need
+#### What You Need
 
 * The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 * The flashrom backup corresponding to your flashcart
-  + Note that if you followed [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system)), the flashrom backup already exists in the correct location and does not need to be downloaded
-  + Note that if you followed [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system)) or [Flashing ntrboot (NDS)](flashing-ntrboot-(nds)), the flashrom backup already exists on your flashcart's SD card and should be copied to the location specified below
-  + If you do not know which HW revision you have, just try each for your cart of them. Only the correct one will allow your flashcart to launch properly from home menu, but flashing the wrong one will not brick the cart
+    + Note that if you followed [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system)), the flashrom backup already exists in the correct location and does not need to be downloaded
+    + Note that if you followed [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system)) or [Flashing ntrboot (NDS)](flashing-ntrboot-(nds)), the flashrom backup already exists on your flashcart's SD card and should be copied to the location specified below
+    + If you do not know which HW revision you have, just try each for your cart of them. Only the correct one will allow your flashcart to launch properly from home menu, but flashing the wrong one will not brick the cart
 
 | Flashcart | Hardware Revision | Flashrom |
 |-|:-:|:-:|
@@ -118,11 +116,11 @@ Do not follow this section until you have completed the rest of the instructions
 | **R4iSDHC RTS LITE 20XX** from r4isdhc **.com** | | <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [R4iSDHC_RTS_LITE_20XX-Flashrom.zip](magnet:?xt=urn:btih:543f90f7c50ee847af1d2152bdcbe76e7ed364e4&dn=R4iSDHC%5FRTS%5FLITE%5F20XX-Flashrom.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce) |
 | **R4iSDHC Dual-Core 20XX** from r4isdhc **.com** | | <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [R4iSDHC_Dual-Core_20XX-Flashrom.zip](magnet:?xt=urn:btih:be5b27b85dcb8a696191a1eddef478f7ab346e06&dn=R4iSDHC%5FDual-Core%5F20XX-Flashrom.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce) |
 
-##### Instructions
+#### Instructions
 
 1. Power off your device
 1. Insert your SD card into your computer
-  + This is the SD card from your 3DS, *not* the SD card from your flashcart
+    + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Create a folder named `ntrboot` on the root of your SD card
 1. Copy the `.bin` file from your flashrom backup `.zip` to the `/ntrboot/` folder on the root of your SD card
 1. Create a folder named `payloads` in the `luma` folder on your SD card
@@ -133,7 +131,7 @@ Do not follow this section until you have completed the rest of the instructions
 1. Read the red screen warning
 1. Press (A) to continue
 1. Select your flashcart
-  + If you do not see your flashcart in the list at the top, read the bottom screen for more info on each option
+    + If you do not see your flashcart in the list at the top, read the bottom screen for more info on each option
 1. Select "Restore Flash"
 1. Press (A) to proceed
 1. Wait until the process is completed
