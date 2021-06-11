@@ -10,7 +10,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
 
 !!! danger "Important"
-You MUST have already installed Luma3DS and boot9strap to use this.
+	You MUST have already installed Luma3DS and boot9strap to use this.
 
 ## What You Need
 
