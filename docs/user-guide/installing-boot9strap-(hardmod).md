@@ -90,4 +90,4 @@ This will work on New 3DS, New 2DS, Old 3DS, and Old 2DS on *all* versions that 
 ___
 
 !!! tip ""
-	### Continue to [Finalizing Setup](finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup)
