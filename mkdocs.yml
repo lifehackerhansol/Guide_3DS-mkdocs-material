@@ -15,22 +15,13 @@ nav:
             - 'Browser' : 'user-guide/installing-boot9strap-(browser).md'
         - 'Finalizing Setup': finalizing-setup.md
     - Extras:
-        - 'Blocking Updates': 'extras/blocking_updates.md'
-        - 'Restoring a NAND Backup': 'extras/nandrestore.md'
-        - 'AutoRCM': 'extras/autorcm.md'
-        - 'Dumping Title Keys': 'extras/dumping_title_keys.md'
-        - 'Theming': 'extras/theming.md'
-        - 'Save Management': 'extras/save_management.md'
-        - 'Game Modding': 'extras/game_modding.md'       
-        - 'Linux injection without root': 'extras/adding_udev.md'
-        - 'Showing File Name Extensions (Windows)': 'extras/showing_file_extensions.md'
-        - 'Alternate Boot Setups': 'extras/alternate_bootsetups.md'
-        - 'RCM Payload Injectors Information': 'extras/rcm_injectors.md'
-        - 'Updating CFW': 'extras/updating.md'
-        - 'Changing SD cards': 'extras/transfer_sd.md'
-        - 'Glossary': 'extras/glossary.md'
+        - 'A9LH to B9S': 'extras/a9lh-to-b9s.md'
+        - 'CTRtransfer': 'extras/ctrtransfer.md'
+        - 'GodMode9 Usage': 'extras/godmode9-usage.md'
+        - 'Restoring CFW': 'extras/restoring-cfw.md'
+        - 'Updating B9S': 'extras/updating-b9s.md'
     - FAQ: faq.md
-    - About: about.md
+    - Credits: credits.md
     
 markdown_extensions:
     - admonition
