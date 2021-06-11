@@ -26,6 +26,7 @@ nav:
 markdown_extensions:
     - admonition
     - fontawesome_markdown
+    - fenced_code
 
 extra_css:
     - css/custom.css
