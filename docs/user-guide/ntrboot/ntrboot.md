@@ -2,7 +2,7 @@
 ---
 
 !!! tip "Already flashed ntrboot?"
-	If your flashcart comes pre-flashed with ntrboot (or you have already flashed ntrboot to your flashcart), you can skip to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot)) for instructions on how to use it.
+	If your flashcart comes pre-flashed with ntrboot (or you have already flashed ntrboot to your flashcart), you can skip to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot)) for instructions on how to use it.
 
 ## Required Reading
 
@@ -33,7 +33,7 @@ Note that carts with a "Time Bomb" will no longer be able to launch `.nds` files
 | **R4iSDHC Dual-Core 20XX** | | 4.0b: September 3, 2024 | <= 11.14.0 | <= 1.4.5 | Only r4isdhc **.com** carts marked with a year between 2014 and 2020 are compatible. |
 
 !!! tip ""
-	<img src="img/ntrboot-flashcarts.png" alt="ntrboot-compatible Flashcarts">
+	![ntrboot-compatible Flashcarts](img/ntrboot-flashcarts.png)
 
 Ensure your flashcart is able to launch `.nds` files on your device before beginning. Some flashcarts may require firmware or "kernel" files to be copied to the flashcart SD card. Consult your specific flashcart's instructions for more information.
 

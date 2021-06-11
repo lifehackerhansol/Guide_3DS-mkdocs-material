@@ -42,4 +42,4 @@ This method requires temporary access to a Nintendo DSi that is compatible with 
 ___
 
 !!! tip ""
-	### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+	### Continue to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot))

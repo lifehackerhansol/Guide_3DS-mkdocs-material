@@ -54,4 +54,4 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 ___
 
 !!! tip ""
-	### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+	### Continue to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot))
