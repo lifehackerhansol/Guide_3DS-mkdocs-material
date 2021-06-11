@@ -13,7 +13,6 @@
 If I forgot you here, contact me and I'll add your name.
 
 ```
-
 + Al3x_10m
 + aliaspider
 + AngelSL
@@ -81,6 +80,5 @@ If I forgot you here, contact me and I'll add your name.
 + yellows8
 + yifan_lu
 + zoogie
-
 ```
 
