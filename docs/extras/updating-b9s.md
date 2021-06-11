@@ -56,4 +56,4 @@ This page is for existing boot9strap users to update their installation of boot9
 ___
 
 !!! tip ""
-	### Continue to [Finalizing Setup](finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup)

@@ -28,4 +28,4 @@ This page prepares consoles with an existing modern boot9strap installation for 
 ___
 
 !!! tip ""
-### Continue to [Finalizing Setup](finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup)

@@ -45,7 +45,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 1. **New 3DS Users Only:** Copy `secret_sector.bin` to the `/boot9strap/` folder on your SD card
 
 !!! tip ""
-	<img src="img/a9lh-to-b9s-file-layout.png" alt="A9LH to B9S File Layout">
+	![A9LH to B9S File Layout](img/a9lh-to-b9s-file-layout.png)
 
 1. Reinsert your SD card into your device
 
@@ -69,4 +69,4 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 ___
 
 !!! tip ""
-### Continue to [Finalizing Setup](finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup)
