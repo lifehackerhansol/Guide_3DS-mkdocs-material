@@ -23,6 +23,7 @@ nav:
         - 'Region Changing' : 'extras/region-changing.md'
         - 'Restoring CFW'   : 'extras/restoring-cfw.md'
         - 'Updating B9S'    : 'extras/updating-b9s.md'
+        - 'Uninstall CFW'   : 'extras/uninstall-cfw.md'
     - FAQ                   : faq.md
     - Troubleshooting       : troubleshooting.md
     - Credits               : credits.md
