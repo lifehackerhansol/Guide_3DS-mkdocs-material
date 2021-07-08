@@ -158,7 +158,7 @@ This section will ensure that all illegitimate tickets are removed, allowing eSh
 
 ___
 
-!!! tip "Success"
+!!! success "Success"
 	All custom firmware has been removed from your device.
 
 	You can now remove any extra files and folders from the root of your SD card that are *not* the `Nintendo 3DS`, `DCIM` or `private` folders.
