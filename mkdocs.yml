@@ -20,6 +20,7 @@ nav:
         - 'GodMode9 Usage'  : 'extras/godmode9-usage.md'
         - 'Move EmuNAND'    : 'extras/move-emunand.md'
         - 'NSUI'            : 'extras/nsui.md'
+        - 'Region Changing' : 'extras/region-changing.md'
         - 'Restoring CFW'   : 'extras/restoring-cfw.md'
         - 'Updating B9S'    : 'extras/updating-b9s.md'
     - FAQ                   : faq.md
