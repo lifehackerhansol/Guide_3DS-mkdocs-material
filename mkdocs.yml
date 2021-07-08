@@ -7,7 +7,7 @@ site_description: 3DS Hacks Guide.
 site_author: NH Discord Server.
 
 nav:
-    - Home: index.md
+    - Home                  : index.md
     - User Guide:
         - 'Get Started'     : 'user-guide/get-started.md'
         - Methods: 
@@ -22,8 +22,10 @@ nav:
         - 'NSUI'            : 'extras/nsui.md'
         - 'Restoring CFW'   : 'extras/restoring-cfw.md'
         - 'Updating B9S'    : 'extras/updating-b9s.md'
-    - FAQ: faq.md
-    - Credits: credits.md
+    - FAQ                   : faq.md
+    - Troubleshooting       : troubleshooting.md
+    - Credits               : credits.md
+    - Privacy Policy        : privacy-policy.md
     
 markdown_extensions:
     - admonition
