@@ -18,6 +18,10 @@ nav:
         - 'Checking for CFW'                   : 'extras/checking-for-cfw.md'
         - 'CTRtransfer'                        : 'extras/ctrtransfer.md'
         - 'Dumping Titles and Game Cartridges' : 'extras/dumping-titles-and-game-cartridges.md'
+        - 'Formatting SD':
+            - 'Windows'                        : 'extras/formatting-sd-(windows).md'
+            - 'macOS'                          : 'extras/formatting-sd-(mac).md'
+            - 'Linux'                          : 'extras/formatting-sd-(linux).md'
         - 'GodMode9 Usage'                     : 'extras/godmode9-usage.md'
         - 'Move EmuNAND'                       : 'extras/move-emunand.md'
         - 'NSUI'                               : 'extras/nsui.md'

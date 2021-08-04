@@ -6,7 +6,7 @@ A complete guide to 3DS custom firmware, from stock to boot9strap.
     Thoroughly read all of the introductory pages (including this one!) before proceeding.
 
 !!! danger "Latest System Software"
-	The latest system software version is currently 11.15.0-47. If you have installed CFW in the past, it is highly recommended to follow [Checking for CFW](extras/checking-for-cfw) to make sure your custom firmware is up-to-date.
+	The latest system software version is currently 11.15.0-47. If you have installed CFW in the past, it is highly recommended to follow [Checking for CFW](extras/checking-for-cfw.md) to make sure your custom firmware is up-to-date.
 
 ## What is custom firmware?
 
