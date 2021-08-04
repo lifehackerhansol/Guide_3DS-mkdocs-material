@@ -20,7 +20,7 @@ Your device version can be found at the bottom right of the top screen of the Sy
 
 ## Version Table
 
-The letter and number after the system version (for example, 11.14.0-**46U**) is not relevant in this version table.
+The letter and number after the system version (for example, 11.15.0-**47U**) is not relevant in this version table.
 
 <table>
   <colgroup>
@@ -37,18 +37,13 @@ The letter and number after the system version (for example, 11.14.0-**46U**) is
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">11.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
-    </tr>
-	<tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;">11.13.0</td>
+      <td style="text-align: center; font-weight: bold;">11.14.0</td>
       <td style="text-align: center; font-weight: bold;">Update your 3DS to the latest version through System Settings</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">11.14.0 (latest version)</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installing boot9strap (Browser)</a></td>
+	  <td style="text-align: center; font-weight: bold;" colspan="2">11.15.0 (latest version)</td>
+      <td style="text-align: center; font-weight: bold;"><a href="seedminer">Seedminer</a></td>
     </tr>
   </tbody>
 </table>

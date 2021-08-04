@@ -12,7 +12,7 @@ nav:
         - 'Get Started'     : 'user-guide/get-started.md'
         - Methods: 
             - 'Soundhax'    : 'user-guide/installing-boot9strap-(soundhax).md'  
-            - 'Browser'     : 'user-guide/installing-boot9strap-(browser).md'
+            - 'Seedminer'   : 'user-guide/seedminer.md'
         - 'Finalizing Setup': finalizing-setup.md
     - Extras:
         - 'A9LH to B9S'     : 'extras/a9lh-to-b9s.md'
