@@ -2,7 +2,8 @@
 title: "H2testw (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+# H2testw (Windows)
+---
 
 ### Required Reading
 
@@ -30,11 +31,12 @@ This page is for Windows users only. If you are not on windows, check out the [F
 
 ___
 
-If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card
-{: .notice--success}
+!!! tip "Success"
+	If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
-{: .notice--danger}
+!!! danger "Error"
+	If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
-### Return to [Get Started](get-started)
-{: .notice--primary}
+!!! tip ""
+	### Return to [Get Started](../user-guide/get-started.md)
+

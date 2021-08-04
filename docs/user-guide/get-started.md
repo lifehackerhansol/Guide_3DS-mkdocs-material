@@ -18,7 +18,7 @@ Your device version can be found at the bottom right of the top screen of the Sy
 	![System Version](/images/screenshots/system-version.png)
 
 !!! danger "Important"
-    Before starting, you may want to check your SD card for errors using [H2testw (Windows)](/extras/h2testw-(windows).md), [F3 (Linux)](/extras/f3-(linux).md), or [F3XSwift (Mac)](/extras/f3xswift-(mac).md)!
+    Before starting, you may want to check your SD card for errors using [H2testw (Windows)](../extras/h2testw-(windows).md), [F3 (Linux)](../extras/f3-(linux).md), or [F3XSwift (Mac)](../extras/f3xswift-(mac).md)!
 	
     While we believe that custom firmware is safe for online use, there have been online network bans in the past, primarily for cheating and suspicious eShop behavior.
 

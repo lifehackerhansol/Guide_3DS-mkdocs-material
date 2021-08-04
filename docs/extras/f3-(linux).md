@@ -63,4 +63,4 @@ ___
 	If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 !!! tip ""
-	### Return to [Get Started](/user-guide/get-started.md)
+	### Return to [Get Started](../user-guide/get-started.md)

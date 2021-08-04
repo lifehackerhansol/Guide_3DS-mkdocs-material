@@ -36,4 +36,4 @@ This page is for Mac users only. If you are not on Mac, check out the [H2testw (
 	If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 !!! tip ""
-	## Return to [Get Started](get-started.md)
+	## Return to [Get Started](../user-guide/get-started.md)
