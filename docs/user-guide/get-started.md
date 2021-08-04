@@ -37,7 +37,12 @@ The letter and number after the system version (for example, 11.15.0-**47U**) is
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.0</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
+    </tr>
+	<td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">11.14.0</td>
       <td style="text-align: center; font-weight: bold;">Update your 3DS to the latest version through System Settings</td>
     </tr>
