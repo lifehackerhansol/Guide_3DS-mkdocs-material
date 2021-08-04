@@ -14,7 +14,7 @@ Any unsigned (illegitimate) games will be rendered unusable and should be manual
 	If you have modified critical system software (such as editing the home menu, unbanning your console, region changing, etc.), uninstalling CFW WILL BRICK your device! Ensure that you follow all sections of this page.
 
 !!! warning "Latest Luma3DS"
-	These instructions will only work on devices with a Luma3DS version of 8.0 or higher. If you have an older version of Luma, you must upgrade your setup before following these instructions. Follow [this page](checking-for-cfw) to find your upgrade instructions.
+	These instructions will only work on devices with a Luma3DS version of 8.0 or higher. If you have an older version of Luma, you must upgrade your setup before following these instructions. Follow [this page](checking-for-cfw.md) to find your upgrade instructions.
 
 Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
 
@@ -22,7 +22,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest release of [DSiWare Uninstaller](https://github.com/MechanicalDragon0687/DSiWare-Uninstaller/releases/latest)
-* [safety_test.gm9]({{ base_path }}/gm9_scripts/safety_test.gm9)
+* [safety_test.gm9](/files/safety_test.gm9)
 
 ## Instructions
 
@@ -48,14 +48,14 @@ The purpose of this section is to check whether built-in DS mode applications wi
 
 #### DS Download Play Test
 1. Power on your device
-1. Launch the Download Play application (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
+1. Launch the Download Play application (![](/images/download-play-icon.png){: style="height:24px; width:24px"})
 1. Select "Nintendo DS"
 1. If your device loads into a "Download software via DS Download Play" menu, the test was successful
     + If your console displays the Japanese version of Flipnote Studio, a black screen, or an error message, the test has failed
 1. Power off your device
 
 !!! warning "Failed DS Mode test"
-	If either of these tests has failed, DS mode, DS Download Play, and/or DS Connection Settings may be inaccessible once CFW is uninstalled! You should [fix DS mode](../troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide) before continuing.
+	If either of these tests has failed, DS mode, DS Download Play, and/or DS Connection Settings may be inaccessible once CFW is uninstalled! You should [fix DS mode](../troubleshooting.md#dsi--ds-functionality-is-broken-after-completing-the-guide) before continuing.
 
 
 ### Section III - Safety Test
@@ -114,7 +114,7 @@ The purpose of this section is to verify that the console will boot and that cri
     + This includes software such as TWiLightMenu++, along with any games and titles that you did *not* install from the eShop
     + Failure to remove all CFW software from both the 3DS and DSiWare sections before uninstalling CFW may prevent or disable access to the Data Management menu after uninstalling CFW
 1. Exit the System Settings application
-1. Launch the Download Play application (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
+1. Launch the Download Play application (![](/images/download-play-icon.png){: style="height:24px; width:24px"})
 1. Wait until you see the two buttons
 1. Press (Left Shoulder) + (D-Pad Down) + (Select) at the same time to open the Rosalina menu
 1. Select "Miscellaneous options"

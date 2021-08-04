@@ -77,7 +77,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 
 ### Section III - Launching FBI
 
-1. Launch the Download Play application (this [icon]({{ "/images/download-play-icon.png" | absolute_url }})
+1. Launch the Download Play application (this [icon](/images/download-play-icon.png))
 1. Press (L) + (Down) + (Select) at the same time to open the Rosalina menu
 1. Select "Miscellaneous options"
 1. Select "Switch the hb. title to the current app."
@@ -91,7 +91,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 ### Section IV - Reinstalling Tickets
 
 !!! tip ""
-If script found no user tickets told you to skip this section, then skip this section
+	If script found no user tickets told you to skip this section, then skip this section
 
 1. Launch FBI from the list of homebrew
 1. Navigate to `SD` -> `cias`

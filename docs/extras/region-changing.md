@@ -110,7 +110,7 @@ Region changing using CTRTransfer (which this method uses) seems to cause reboot
 
 ### Section IV - Launching FBI
 
-1. Launch the Download Play application (this [icon]({{ "/images/download-play-icon.png" | absolute_url }})
+1. Launch the Download Play application (this [icon](/images/download-play-icon.png)
 1. Press (L) + (Down) + (Select) at the same time to open the Rosalina menu
 1. Select "Miscellaneous options"
 1. Select "Switch the hb. title to the current app."

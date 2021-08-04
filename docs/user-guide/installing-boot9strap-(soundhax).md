@@ -36,7 +36,7 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
 1. Launch Nintendo 3DS Sound
 
 !!! tip ""
-	![Welcome Screen](img/soundhax-welcome.png)
+	![Welcome Screen](/images/screenshots/soundhax-welcome.png)
 
 1. If you've never opened Nintendo 3DS Sound before and get tips on how to use it from a bird icon, go through all of the bird tips, then close the app normally and relaunch it
     - In this situation, launching Soundhax immediately would cause these tips to appear on every launch of the Nintendo 3DS Sound until this is done
@@ -46,7 +46,7 @@ Soundhax (when combined with universal-otherapp) is compatible with versions 1.0
     - If your console displays a red and white screen *and* your console is on system version 9.4.0, 9.5.0, or 9.6.0, try following [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax).md)
 
 !!! tip ""
-	![Launching Soundhax](img/soundhax-launch.png)
+	![Launching Soundhax](/images/screenshots/soundhax-launch.png)
 
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 

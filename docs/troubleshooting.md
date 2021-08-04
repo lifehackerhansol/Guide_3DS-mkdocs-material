@@ -145,13 +145,13 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
     1. Press (Start) to reboot your device
 1. Try booting without any cartridges inserted (including flashcarts)
 1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version
-1. Try following [CTRTransfer](ctrtransfer)
+1. Try following [CTRTransfer](extras/ctrtransfer.md)
 1. For support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 ## Blue screen on boot (bootrom error)
 
 1. Your device is bricked
-1. You will need to get an ntrboot-comptible flashcart (one of the ones on [this list](ntrboot) or a [hardmod](https://gbatemp.net/threads/414498/), or repair / replace your device
+1. You will need to get an ntrboot-comptible flashcart (one of the ones on [this list](user-guide/ntrboot.md) or a [hardmod](https://gbatemp.net/threads/414498/), or repair / replace your device
 1. For support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 ## System update error after installing CFW

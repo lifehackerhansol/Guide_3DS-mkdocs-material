@@ -52,4 +52,4 @@ This method requires temporary access to a second 3DS family device that is alre
 ___
 
 !!! tip ""
-	### Continue to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot).md)
+	### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot).md)

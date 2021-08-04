@@ -47,4 +47,4 @@ This method requires nothing more than your stock unhacked 3DS and a compatible 
 ___
 
 !!! tip ""
-	### Continue to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot).md)
+	### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot).md)

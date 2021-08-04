@@ -10,7 +10,7 @@ This is a currently working implementation of the "FIRM partitions known-plainte
 ## What You Need
 
 * A DSiWare Backup (such as the one on SD root from [BannerBomb3](bannerbomb3.md))
-* Your `movable.sed` file from completing [Seedminer](seedminer)
+* Your `movable.sed` file from completing [Seedminer](seedminer.md)
 * The latest release of [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest)
 * The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)

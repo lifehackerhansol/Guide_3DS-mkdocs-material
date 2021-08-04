@@ -1,7 +1,7 @@
 # GodMode9 Usage
 ---
 
-!!! tip "Need help with GodMode9?"
+!!! tip ""
 	For support (in English) with GodMode9, as well as help with scripting and to get updates and info, join [GodMode9 on Discord](https://discord.gg/BRcbvtFxX4).
 
 ## Required Reading
@@ -92,7 +92,7 @@ GodMode9 is powerful software that has the capability to modify essentially anyt
 ## Restoring Health & Safety after injecting a .CIA app
 
 !!! tip ""
-	will only work if the Health & Safety injection was performed by GodMode9 (not Decrypt9 or Hourglass9).
+	This will only work if the Health & Safety injection was performed by GodMode9 (not Decrypt9 or Hourglass9).
 
 1. Press and hold (Start), and while holding (Start), power on your device. This will launch GodMode9
 1. Press (Home) to bring up the action menu

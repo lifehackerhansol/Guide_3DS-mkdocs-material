@@ -11,7 +11,7 @@ Select the appropriate page for your version from the chart below. Note that the
 Your device version can be found at the bottom right of the top screen of the System Settings.
 
 !!! tip ""
-	![System Version](img/system-version.png)
+	![System Version](/images/screenshots/system-version.png)
 
 !!! danger "Important"
     Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3XSwift (Mac)](f3xswift-(mac))!
@@ -57,5 +57,5 @@ The letter and number after the system version (for example, 11.15.0-**47U**) is
 
 A number of methods that work on all versions are available, but require additional hardware. If possible, you should follow one of the software methods listed above instead.
 
-1. [ntrboot](ntrboot/ntrboot.md) - requires compatible DS flashcart
+1. [ntrboot](ntrboot.md) - requires compatible DS flashcart
 1. [Installing boot9strap (Hardmod)](installing-boot9strap-(hardmod).md) - requires soldering

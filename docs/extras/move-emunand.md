@@ -165,7 +165,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 1. Reinsert your SD card into your device
 1. Press (A) to remount your SD card
 1. Press (Start) to reboot
-1. If you get a black screen, [follow this troubleshooting guide](troubleshooting#ts_sys_down)
+1. If you get a black screen, [follow this troubleshooting guide](../troubleshooting.md#ts_sys_down)
 
 ___
 

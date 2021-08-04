@@ -26,8 +26,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your console's SD card
 
 !!! tip ""
-    ![]({{ "/images/screenshots/boot9strap-ntrboot-file-layout.png" | absolute_url }})
-    {: .notice--info}
+    ![](/images/screenshots/boot9strap-ntrboot-file-layout.png)
 
 1. Reinsert your SD card into your 3DS
 1. Power on your device

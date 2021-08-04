@@ -55,10 +55,10 @@ During this process, we also setup programs such as the following:
 ### Section II - Updating the System
 
 !!! danger "Important"
-	If, while following a previous version of this guide, you CTRTransfered your *New 3DS* to 2.1.0, you should now [restore your NAND backup](godmode9-usage#restoring-a-nand-backup) before doing this section.
+	If, while following a previous version of this guide, you CTRTransfered your *New 3DS* to 2.1.0, you should now [restore your NAND backup](extras/godmode9-usage.md#restoring-a-nand-backup) before doing this section.
 
 !!! tip "EmuNAND"
-	If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
+	If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](extras/move-emunand.md) before doing this section.
 
 1. Update your device by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
     + Updates while using B9S + Luma (what you have) are safe
@@ -68,7 +68,7 @@ During this process, we also setup programs such as the following:
 
 ### Section III - Homebrew Launcher
 
-1. Launch the Download Play application (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
+1. Launch the Download Play application (![](/images/download-play-icon.png){: style="height:24px; width:24px"})
 1. Wait until you see the two buttons
 1. Press (Left Shoulder) + (D-Pad Down) + (Select) at the same time to open the Rosalina menu
 1. Select "Miscellaneous options"

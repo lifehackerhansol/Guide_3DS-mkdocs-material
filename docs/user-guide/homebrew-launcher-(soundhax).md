@@ -40,7 +40,7 @@ Ensure your device's Wireless Communication is turned on as udsploit (used in th
 1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card and rename `SafeB9SInstaller.bin` to `safehaxpayload.bin`
 
 !!! tip ""
-    ![](img/boot9strap-hb-file-layout.png)
+    ![](/images/screenshots/boot9strap-hb-file-layout.png)
 
 
 1. Reinsert your SD card into your device
@@ -48,7 +48,7 @@ Ensure your device's Wireless Communication is turned on as udsploit (used in th
 1. Launch Nintendo 3DS Sound
 
 !!! tip ""
-    ![Welcome Screen](img/soundhax-welcome.png)
+    ![Welcome Screen](/images/screenshots/soundhax-welcome.png)
 
 1. If you've never opened Nintendo 3DS Sound before and get tips on how to use it from a bird icon, go through all of the bird tips, then close the app normally and relaunch it
 	+ In this situation, launching Soundhax immediately would cause these tips to appear on every launch of the Nintendo 3DS Sound until this is done
@@ -58,12 +58,12 @@ Ensure your device's Wireless Communication is turned on as udsploit (used in th
 	+ If you get a red screen, ensure you copied `boot.3dsx` (the Homebrew Launcher) to the root of your SD card
 
 !!! tip ""
-	![Launching Soundhax](img/soundhax-launch.png)
+	![Launching Soundhax](/images/screenshots/soundhax-launch.png)
 
 1. If the exploit was successful, your device will have loaded the Homebrew Launcher
 
 !!! tip ""
-    ![Homebrew Launcher](img/homebrew-launcher.png)
+    ![Homebrew Launcher](/images/screenshots/homebrew-launcher.png)
 ___
 
 !!! tip ""

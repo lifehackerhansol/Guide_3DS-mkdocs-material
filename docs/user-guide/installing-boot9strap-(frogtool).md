@@ -73,7 +73,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 ### Section V - Restoring DS Download Play
 
-1. Launch the Download Play application (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
+1. Launch the Download Play application (![](/images/download-play-icon.png){: style="height:24px; width:24px"})
 1. Wait until you see the two buttons
     + Do not press either of the buttons
 1. Press (Left Shoulder) + (D-Pad Down) + (Select) at the same time to open the Rosalina menu

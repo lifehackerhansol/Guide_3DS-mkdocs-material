@@ -2,7 +2,7 @@
 ---
 
 !!! tip "Already flashed ntrboot?"
-	If your flashcart comes pre-flashed with ntrboot (or you have already flashed ntrboot to your flashcart), you can skip to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot).md) for instructions on how to use it.
+	If your flashcart comes pre-flashed with ntrboot (or you have already flashed ntrboot to your flashcart), you can skip to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot).md) for instructions on how to use it.
 
 ## Required Reading
 
@@ -15,7 +15,7 @@ Note that carts with a "Time Bomb" will no longer be able to launch `.nds` files
 | Flashcart Name | Current Price | "Time Bomb"? | 3DS Versions? | DSi Versions? | Other Notes |
 |-|-:|:-:|:-:|:-:|-|
 | [**R4i-SDHC B9S**](http://www.nds-card.com/ProShow.asp?ProID=574) | $15.99 | September 3, 2024 | <= 11.14.0 | <= 1.4.5 | **Comes pre-flashed with ntrboot**; can be flashed back to an NDS flashcart. |
-| [**R4i Gold 3DS Plus**](http://www.nds-card.com/ProShow.asp?ProID=575) | $19.99 | No | <= 11.14.0 | <= 1.4.5 | **Comes pre-flashed with ntrboot** ([internal switch to switch between ntrboot and NDS modes]({{ "/images/screenshots/r4i-gold-3ds-plus.png" | absolute_url }})); do not manually flash with ntrboot. |
+| [**R4i Gold 3DS Plus**](http://www.nds-card.com/ProShow.asp?ProID=575) | $19.99 | No | <= 11.14.0 | <= 1.4.5 | **Comes pre-flashed with ntrboot** ([internal switch to switch between ntrboot and NDS modes](/images/screenshots/r4i-gold-3ds-plus.png"); do not manually flash with ntrboot. |
 | [**Acekard 2i**](http://www.nds-card.com/ProShow.asp?ProID=160) | $20.99 | No | <= 4.3.0 | <= 1.4.4 | |
 | [**DSTT**](http://www.nds-card.com/ProShow.asp?ProID=157) | $9.99 | No | None | None | Only models with [certain flash chips](https://gist.github.com/aspargas2/fa2a70aed3a7fe33f1f10bc264d9fab6) are compatible with ntrboot. |
 | [**R4i Gold 3DS**](http://www.nds-card.com/ProShow.asp?ProID=149) | $19.99 | No | <= 11.14.0 | <= 1.4.5 | All RTS revisions are compatible. |
@@ -33,7 +33,7 @@ Note that carts with a "Time Bomb" will no longer be able to launch `.nds` files
 | **R4iSDHC Dual-Core 20XX** | | 4.0b: September 3, 2024 | <= 11.14.0 | <= 1.4.5 | Only r4isdhc **.com** carts marked with a year between 2014 and 2020 are compatible. |
 
 !!! tip ""
-	![ntrboot-compatible Flashcarts](img/ntrboot-flashcarts.png)
+	![ntrboot-compatible Flashcarts](/images/screenshots/ntrboot-flashcarts.png)
 
 Ensure your flashcart is able to launch `.nds` files on your device before beginning. Some flashcarts may require firmware or "kernel" files to be copied to the flashcart SD card. Consult your specific flashcart's instructions for more information.
 
@@ -50,6 +50,7 @@ Note that the flashcart will not be able to be used for its standard functions w
 	Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
 
 ___
+
 ## Methods
 
 ___

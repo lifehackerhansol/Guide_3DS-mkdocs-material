@@ -8,7 +8,7 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 ## What You Need
 
 * The game "Pokémon Picross" (free on eShop)
-* Your `movable.sed` file from completing [Seedminer](seedminer)
+* Your `movable.sed` file from completing [Seedminer](seedminer.md)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`boot9strap-1.3.zip`; not the `devkit` file, not the `ntr` file)*
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
