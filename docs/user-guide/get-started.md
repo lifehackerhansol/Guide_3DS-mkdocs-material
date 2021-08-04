@@ -40,7 +40,7 @@ The letter and number after the system version (for example, 11.15.0-**47U**) is
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="/user-guide/installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
     </tr>
 	<td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">11.14.0</td>
@@ -48,7 +48,7 @@ The letter and number after the system version (for example, 11.15.0-**47U**) is
     </tr>
     <tr>
 	  <td style="text-align: center; font-weight: bold;" colspan="2">11.15.0 (latest version)</td>
-      <td style="text-align: center; font-weight: bold;"><a href="seedminer">Seedminer</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="/user-guide/seedminer">Seedminer</a></td>
     </tr>
   </tbody>
 </table>
