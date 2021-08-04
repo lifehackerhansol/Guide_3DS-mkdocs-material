@@ -27,6 +27,11 @@ nav:
         - 'NSUI'                               : 'extras/nsui.md'
         - 'Region Changing'                    : 'extras/region-changing.md'
         - 'Restoring / Updating CFW'           : 'extras/restoring-updating-cfw.md'
+        - 'SD Error Testing':
+            - 'Windows'                        : 'extras/h2testw-(windows).md'
+            - 'macOS (10.13 or higher)'        : 'extras/f3xswift-(mac).md'
+            - 'macOS (10.12 or lower)'         : 'extras/f3x-(mac).md'
+            - 'Linux'                          : 'extras/f3-(linux).md'
         - 'Updating B9S'                       : 'extras/updating-b9s.md'
         - 'Uninstall CFW'                      : 'extras/uninstall-cfw.md'
     - FAQ                   : faq.md
