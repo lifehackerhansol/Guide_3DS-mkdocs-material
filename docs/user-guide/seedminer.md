@@ -73,4 +73,4 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 This route is only recommended if you are for some reason unable to follow the PicHaxx + universal-otherapp route.
 
 !!! tip ""
-	Continue to [BannerBomb3](bannerbomb3)
+	Continue to [BannerBomb3](bannerbomb3.md)
