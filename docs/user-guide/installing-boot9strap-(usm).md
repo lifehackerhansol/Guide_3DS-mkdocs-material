@@ -18,7 +18,7 @@ These instructions work on USA, Europe, Japan, and Korea region consoles as indi
 
 ## What You Need
 
-* Your `movable.sed` file from completing [Seedminer](seedminer)
+* Your `movable.sed` file from completing [Seedminer](seedminer.md)
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 
 ### Section I - Prep Work
@@ -33,7 +33,7 @@ These instructions work on USA, Europe, Japan, and Korea region consoles as indi
     + The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it
 1. Copy `usm.bin` from `unSAFE_MODE-bb3.zip` to the root of your SD card
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` on your SD card
-    + The `<ID0>` will be the same one that you used in [Seedminer](seedminer)
+    + The `<ID0>` will be the same one that you used in [Seedminer](seedminer.md)
     + The `<ID1>` is a 32 character long folder inside of the `<ID0>`
     + If `Nintendo DSiWare` does not exist, create it inside of the `<ID1>`
 1. If there are any existing DSiWare backup files (`<8-character-id>.bin`) in this folder, move them to your PC
@@ -70,7 +70,7 @@ These instructions work on USA, Europe, Japan, and Korea region consoles as indi
 1. Use the (A) button and the D-Pad to turn on the following:
     + **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
-    + Your device should load the Home Menu after a short delay. If you get a black screen lasting longer than 5 minutes, [follow this troubleshooting guide](../troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+    + Your device should load the Home Menu after a short delay. If you get a black screen lasting longer than 5 minutes, [follow this troubleshooting guide](../troubleshooting.md#black-screen-on-sysnand-boot-after-installing-boot9strap)
 
 ### Section V - Restoring WiFi Configuration Profiles
 
@@ -84,4 +84,4 @@ These instructions work on USA, Europe, Japan, and Korea region consoles as indi
 1. Delete `F00D43D5.bin` from your Nintendo DSiWare folder
 
 !!! tip ""
-	### Continue to [Finalizing Setup](../finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup.md)

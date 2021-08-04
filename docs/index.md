@@ -35,4 +35,4 @@ This guide will install **boot9strap + Luma3DS custom firmware** on **unmodified
 ___
 
 !!! tip ""
-    ### Continue to [Get Started](user-guide/get-started)
+    ### Continue to [Get Started](user-guide/get-started.md)

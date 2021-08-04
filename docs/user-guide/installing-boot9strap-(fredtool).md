@@ -9,7 +9,7 @@ This is a currently working implementation of the "FIRM partitions known-plainte
 
 ## What You Need
 
-* A DSiWare Backup (such as the one on SD root from [BannerBomb3](bannerbomb3))
+* A DSiWare Backup (such as the one on SD root from [BannerBomb3](bannerbomb3.md))
 * Your `movable.sed` file from completing [Seedminer](seedminer)
 * The latest release of [Frogminer_save](https://github.com/zoogie/Frogminer/releases/latest)
 * The latest release of [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
@@ -34,7 +34,7 @@ This is a currently working implementation of the "FIRM partitions known-plainte
 1. When the process has completed, download your modified DSiWare archive from the site
     + This file contains 2 DSiWare backup files, one clean (unmodified) and one hax (exploited)
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` on your SD card
-    + The `<ID0>` will be the same one that you used in [Seedminer](seedminer)
+    + The `<ID0>` will be the same one that you used in [Seedminer](seedminer.md)
     + The `<ID1>` is a 32 character long folder inside of the `<ID0>`
     + If the `Nintendo DSiWare` folder does not exist, create it inside of the `<ID1>`
 1. Copy the `42383841.bin` file from the `output/hax/` folder of the downloaded DSiWare archive (`fredtool_output.zip`) to the `Nintendo DSiWare` folder
@@ -78,7 +78,7 @@ This is a currently working implementation of the "FIRM partitions known-plainte
 1. Use the (A) button and the D-Pad to turn on the following:
     + **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
-    + Your device should load the Home Menu after a short delay. If you get a black screen lasting longer than 5 minutes, [follow this troubleshooting guide](../troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+    + Your device should load the Home Menu after a short delay. If you get a black screen lasting longer than 5 minutes, [follow this troubleshooting guide](../troubleshooting.md#black-screen-on-sysnand-boot-after-installing-boot9strap)
 
 ### Section V - Restoring DS Connection Settings
 
@@ -94,5 +94,5 @@ This is a currently working implementation of the "FIRM partitions known-plainte
 1. Select "Copy", then select "OK"
 
 !!! tip ""
-	### Continue to [Finalizing Setup](../finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup.md)
 

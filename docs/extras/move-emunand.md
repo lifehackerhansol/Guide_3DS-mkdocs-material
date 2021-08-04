@@ -170,5 +170,5 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 ___
 
 !!! tip ""
-	### Return to [Finalizing Setup](../finalizing-setup).
+	### Return to [Finalizing Setup](../finalizing-setup.md).
 

@@ -1,4 +1,5 @@
 # Seedminer
+---
 
 ## Required Reading
 
@@ -64,7 +65,7 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 This route requires the Pokémon Picross application (free on eShop), and thus requires eShop access and a 3DS with a region of USA, EUR, or JPN.
 
 !!! tip ""
-	Continue to [Installing boot9strap (PicHaxx)](installing-boot9strap-(pichaxx))
+	Continue to [Installing boot9strap (PicHaxx)](installing-boot9strap-(pichaxx).md)
 
 ### BannerBomb3 + Fredtool
 

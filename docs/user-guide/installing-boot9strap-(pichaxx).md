@@ -33,7 +33,7 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 1. Select "Build and Download"
 1. Wait for the process to complete
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` on your SD card
-    + The `<ID0>` will be the same one that you used in [Seedminer](seedminer)
+    + The `<ID0>` will be the same one that you used in [Seedminer](seedminer.md)
     + The `<ID1>` is a 32 character long folder inside of the `<ID0>`
 1. Copy the newly downloaded `00000001.sav` file to the `data` folder on your SD card
     + Overwrite the old save file when prompted
@@ -51,11 +51,11 @@ This method of using Seedminer for further exploitation uses your `movable.sed` 
 ### Section IV - Configuring Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
-    + If you get a black screen, [follow this troubleshooting guide](../troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+    + If you get a black screen, [follow this troubleshooting guide](../troubleshooting.md#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:
     + **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
     + If you get an error, just continue the next page
 
 !!! tip ""
-	### Continue to [Finalizing Setup](../finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup.md)

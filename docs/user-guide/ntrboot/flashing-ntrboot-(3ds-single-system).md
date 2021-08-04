@@ -3,9 +3,9 @@
 
 ## Required Reading
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot.md)
 
-This method requires nothing more than your stock unhacked 3DS and a compatible flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
+This method requires nothing more than your stock unhacked 3DS and a compatible flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table on [ntrboot](ntrboot.md) for more information.
 
 !!! danger "Important"
 	Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
@@ -47,4 +47,4 @@ This method requires nothing more than your stock unhacked 3DS and a compatible 
 ___
 
 !!! tip ""
-	### Continue to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot))
+	### Continue to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot).md)

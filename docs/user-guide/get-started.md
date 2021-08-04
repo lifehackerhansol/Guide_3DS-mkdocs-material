@@ -4,7 +4,7 @@
 ## Required Reading
 
 !!! tip ""
-    If you have hacked your 3DS in the past, or you purchased your 3DS second-hand, it is possible that your console already has custom firmware. You should [check for CFW](checking-for-cfw) before proceeding.
+    If you have hacked your 3DS in the past, or you purchased your 3DS second-hand, it is possible that your console already has custom firmware. You should [check for CFW](../extras/checking-for-cfw.md) before proceeding.
 
 Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive.
 
@@ -57,5 +57,5 @@ The letter and number after the system version (for example, 11.15.0-**47U**) is
 
 A number of methods that work on all versions are available, but require additional hardware. If possible, you should follow one of the software methods listed above instead.
 
-1. [ntrboot](ntrboot/ntrboot) - requires compatible DS flashcart
-1. [Installing boot9strap (Hardmod)](installing-boot9strap-(hardmod)) - requires soldering
+1. [ntrboot](ntrboot/ntrboot.md) - requires compatible DS flashcart
+1. [Installing boot9strap (Hardmod)](installing-boot9strap-(hardmod).md) - requires soldering

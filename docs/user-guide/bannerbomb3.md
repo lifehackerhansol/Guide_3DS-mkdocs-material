@@ -11,7 +11,7 @@ These instructions work on USA, Europe, Japan, and Korea region consoles as indi
 
 ## What You Need
 
-* Your `movable.sed` file from completing [Seedminer](seedminer)
+* Your `movable.sed` file from completing [Seedminer](seedminer.md)
 
 ### Section I - BannerBomb3
 1. Open [BannerBomb3 Tool](https://3ds.nhnarwhal.com/3dstools/bannerbomb3.php) on your computer
@@ -21,7 +21,7 @@ These instructions work on USA, Europe, Japan, and Korea region consoles as indi
 1. If your console is powered on, power off your console
 1. Insert your SD card into your computer
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` on your SD card
-    + This `<ID0>` will be the same one that you used in [Seedminer](seedminer)
+    + This `<ID0>` will be the same one that you used in [Seedminer](seedminer.md)
     + If `Nintendo DSiWare` does not exist, create it
 1. If there are any existing DSiWare backup files (`<8-character-id>.bin`) in this folder, move them to your PC
     + This will leave you with an empty Nintendo DSiWare folder. Moving the files to your PC ensures you don't delete any intentional backups
@@ -36,10 +36,10 @@ These instructions work on USA, Europe, Japan, and Korea region consoles as indi
 1. Insert your SD card into your computer
 1. You should now have `42383841.bin` in SD root.  This is the DSiWare backup you will use later in the guide
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` on your SD card
-    + This `<ID0>` will be the same one that you used in [Seedminer](seedminer)
+    + This `<ID0>` will be the same one that you used in [Seedminer](seedminer.md)
 1. Delete `F00D43D5.bin` from the Nintendo DSiWare folder and from your computer. This file will not be needed anymore
 
 !!! tip ""
-	### Continue to [Installing boot9strap (Fredtool)](installing-boot9strap-(fredtool))
+	### Continue to [Installing boot9strap (Fredtool)](installing-boot9strap-(fredtool).md)
 
 

@@ -28,4 +28,4 @@ This page prepares consoles with an existing modern boot9strap installation for 
 ___
 
 !!! tip ""
-	### If you wish to re-install or update other homebrew applications, continue to [Finalizing Setup](../finalizing-setup)
+	### If you wish to re-install or update other homebrew applications, continue to [Finalizing Setup](../finalizing-setup.md)

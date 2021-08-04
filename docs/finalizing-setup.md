@@ -64,7 +64,7 @@ During this process, we also setup programs such as the following:
     + Updates while using B9S + Luma (what you have) are safe
     + The updater may display a message saying "Your system is up to date" instead of updating. This is normal if you are already up to date; continue with the next section
     + If this gives you an error, set your DNS settings to "auto"
-    + If this still gives you an error, [follow this troubleshooting guide](troubleshooting#system-update-error-after-installing-cfw)
+    + If this still gives you an error, [follow this troubleshooting guide](troubleshooting.md#system-update-error-after-installing-cfw)
 
 ### Section III - Homebrew Launcher
 
@@ -165,10 +165,10 @@ ___
 	If your new SD card is bigger than 32GB, then you have to use a different tool to format it, such as [guiformat (Windows)](formatting-sd-(windows)), [Disk Utility (Mac)](formatting-sd-(mac)), or [cfdisk (Linux)](formatting-sd-(linux)).
 
 !!! tip "Changing region"
-	For information on changing your device to another region, check out the [Region Changing](region-changing) page.
+	For information on changing your device to another region, check out the [Region Changing](extras/region-changing.md) page.
 
 !!! tip "Using GodMode9's features"
-	For information on using GodMode9's various features, check out the [GodMode9 Usage](docs/extras/godmode9-usage) page.
+	For information on using GodMode9's various features, check out the [GodMode9 Usage](extras/godmode9-usage.md) page.
 
 !!! tip "Using Luma3DS's features"
 	For information on using Luma3DS's various features, check out [its wiki](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).

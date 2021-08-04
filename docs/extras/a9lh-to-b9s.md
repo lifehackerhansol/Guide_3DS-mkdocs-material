@@ -69,4 +69,4 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 ___
 
 !!! tip ""
-	### Continue to [Finalizing Setup](../finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup.md)

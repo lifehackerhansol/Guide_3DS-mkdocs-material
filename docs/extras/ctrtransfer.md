@@ -119,4 +119,4 @@ If script found no user tickets told you to skip this section, then skip this se
 ___
 
 !!! tip ""
-	### Continue to [Finalizing Setup](../finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup.md)

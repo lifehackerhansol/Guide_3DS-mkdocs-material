@@ -3,7 +3,7 @@
 
 ## Required Reading
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot.md)
 
 This method requires temporary access to a second 3DS family device that is already running boot9strap. This does not require your flashcart to support either 3DS's version.
 
@@ -52,4 +52,4 @@ This method requires temporary access to a second 3DS family device that is alre
 ___
 
 !!! tip ""
-	### Continue to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot))
+	### Continue to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot).md)
