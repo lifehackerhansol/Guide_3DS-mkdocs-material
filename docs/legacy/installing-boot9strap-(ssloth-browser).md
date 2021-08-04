@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (SSLoth-Browser)
+---
+
 # Installing boot9strap (SSLoth-Browser)
 ---
 

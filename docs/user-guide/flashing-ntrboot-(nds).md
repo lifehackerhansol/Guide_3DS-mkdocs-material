@@ -1,3 +1,7 @@
+---
+title: Flashing ntrboot (NDS)
+---
+
 # Flashing ntrboot (NDS)
 ---
 

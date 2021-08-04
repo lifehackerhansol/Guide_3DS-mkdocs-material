@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (safecerthax)
+---
+
 # Installing boot9strap (safecerthax)
 ---
 

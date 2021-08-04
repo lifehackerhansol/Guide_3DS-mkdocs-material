@@ -1,3 +1,7 @@
+---
+title: Homebrew Launcher (Soundhax)
+---
+
 # Homebrew Launcher (Soundhax)
 ---
 

@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (Fredtool)
+---
+
 # Installing boot9strap (Fredtool)
 ---
 

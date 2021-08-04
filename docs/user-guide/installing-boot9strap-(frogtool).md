@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (Frogtool)
+---
+
 # Installing boot9strap (Frogtool)
 ---
 

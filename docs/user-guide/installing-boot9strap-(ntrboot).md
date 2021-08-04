@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (ntrboot)
+---
+
 # Installing boot9strap (ntrboot)
 ---
 

@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (PicHaxx)
+---
+
 # Installing boot9strap (PicHaxx)
 ---
 

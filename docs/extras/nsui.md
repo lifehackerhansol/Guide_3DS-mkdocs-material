@@ -1,3 +1,7 @@
+---
+title: New Super Ultimate Injector
+---
+
 # New Super Ultimate Injector
 ___
 

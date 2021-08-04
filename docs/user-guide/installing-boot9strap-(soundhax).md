@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (Soundhax)
+---
+
 # Installing boot9strap (Soundhax)
 ---
 

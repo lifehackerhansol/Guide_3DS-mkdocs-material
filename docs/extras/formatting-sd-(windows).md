@@ -1,5 +1,9 @@
-# Formatting SD (Windows)
 ---
+title: Formatting SD (Windows)
+---
+
+# Formatting SD (Windows)
+___
 
 ## Required Reading
 

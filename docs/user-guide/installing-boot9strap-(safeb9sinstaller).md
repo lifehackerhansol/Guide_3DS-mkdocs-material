@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (SafeB9SInstaller)
+---
+
 # Installing boot9strap (SafeB9SInstaller)
 ---
 

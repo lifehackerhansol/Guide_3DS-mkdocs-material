@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (Browser)
+---
+
 # Installing boot9strap (Browser)
 ---
 

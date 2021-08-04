@@ -1,3 +1,7 @@
+---
+title: Formatting SD (Mac)
+---
+
 # Formatting SD (Mac)
 ---
 

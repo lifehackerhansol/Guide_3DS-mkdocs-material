@@ -1,3 +1,7 @@
+---
+title: Homebrew Launcher (PicHaxx)
+---
+
 # Homebrew Launcher (PicHaxx)
 ---
 

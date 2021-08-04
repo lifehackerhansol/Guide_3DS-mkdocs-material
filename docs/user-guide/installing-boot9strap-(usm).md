@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (USM)
+---
+
 # Installing boot9strap (USM)
 ---
 

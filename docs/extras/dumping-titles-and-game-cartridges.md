@@ -1,3 +1,7 @@
+---
+title: Dumping Titles and Game Cartridges
+---
+
 # Dumping Titles and Game Cartridges
 ---
 !!! tip ""

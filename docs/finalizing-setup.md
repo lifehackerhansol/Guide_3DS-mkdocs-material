@@ -1,3 +1,7 @@
+---
+title: Finalizing Setup
+---
+
 # Finalizing Setup
 ---
 

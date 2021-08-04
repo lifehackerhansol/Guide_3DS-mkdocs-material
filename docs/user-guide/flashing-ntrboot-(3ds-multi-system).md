@@ -1,3 +1,7 @@
+---
+title: Flashing ntrboot (3DS Multi System)
+---
+
 # Flashing ntrboot (3DS Multi System)
 ---
 

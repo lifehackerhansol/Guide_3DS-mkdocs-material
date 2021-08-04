@@ -1,3 +1,7 @@
+---
+title: Installing boot9strap (Hardmod)
+---
+
 # Installing boot9strap (Hardmod)
 ---
 

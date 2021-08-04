@@ -1,3 +1,7 @@
+---
+title: Formatting SD (Linux)
+---
+
 # Formatting SD (Linux)
 ---
 

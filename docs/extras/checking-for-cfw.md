@@ -1,3 +1,7 @@
+---
+title: Checking for CFW
+---
+
 # Checking for CFW
 ---
 

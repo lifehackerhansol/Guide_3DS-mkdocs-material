@@ -1,3 +1,7 @@
+---
+title: Uninstall CFW
+---
+
 # Uninstall CFW
 ---
 

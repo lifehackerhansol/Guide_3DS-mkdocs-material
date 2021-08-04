@@ -1,3 +1,7 @@
+---
+title: Move EmuNAND
+---
+
 # Move EmuNAND
 ---
 

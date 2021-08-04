@@ -1,3 +1,7 @@
+---
+title: Flashing ntrboot (DSi)
+---
+
 # Flashing ntrboot (DSi)
 ---
 
