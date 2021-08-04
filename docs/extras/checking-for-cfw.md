@@ -8,7 +8,7 @@ This is an add-on section to check if your console already has a modern custom f
 If your console already has an arm9loaderhax or boot9strap based custom firmware, you will need to follow the instructions indicated to upgrade your setup to a modern one.
 
 !!! tip "Note"
-	If your console has a menuhax based CFW setup, you should [clear Home Menu's extdata](troubleshooting#clear-home-menu-extdata), then follow all instructions on your SysNAND.
+	If your console has a menuhax based CFW setup, you should [clear Home Menu's extdata](../troubleshooting#clear-home-menu-extdata), then follow all instructions on your SysNAND.
 
 ## Instructions
 
@@ -20,7 +20,7 @@ If your console already has an arm9loaderhax or boot9strap based custom firmware
 ___
 
 !!! tip "HOME menu"
-	If your console boots to the normal home menu, return to [Get Started](get-started)
+	If your console boots to the normal home menu, return to [Get Started](../user-guide/get-started)
 
 !!! tip "Version below 7.0.5"
 	If you see a Luma3DS version of 7.0.5 or lower, continue to [A9LH to B9S](a9lh-to-b9s)
@@ -29,7 +29,7 @@ ___
 	If you see a Luma3DS version of 7.1, continue to [Updating B9S](updating-b9s)
 
 !!! tip "Version 8.0+"
-	If you see a Luma3DS version of 8.0 or greater, continue to [Restoring CFW](restoring-cfw)
+	If you see a Luma3DS version of 8.0 or greater, continue to [Restoring / Updating CFW](restoring-updating-cfw)
 
 !!! tip "None of the above"
 	If you see something not described by the above options, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
