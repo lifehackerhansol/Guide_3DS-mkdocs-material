@@ -39,7 +39,7 @@ jobs:
 
       - name: Run Mkdocs
         # Build the site using mkdocs
-        run: mkdocs build --verbose --clean 
+        run: mkdocs build --verbose --clean --strict
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
