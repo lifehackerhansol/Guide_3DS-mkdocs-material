@@ -15,6 +15,8 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 	This process will unlink your NNID from the system because it will no longer be compatible with your NNID. NNIDs are locked to the region of your device that created them and cannot be transferred between regions.
 
 	After this process, **you will not be able to access the eShop**. This includes any feature that uses an NNID, such as game updates, purchasing DLC, or online play in certain games. Region changing to your original region will usually not fix this issue.
+	
+	Performing a CTRTransfer may break extended memory mode games (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) on Old 3DS/2DS devices. If this occurs, you will need to format the device (using TinyFormat or System Settings) to fix the issue.
 
 Note that occasionally the eShop will inexplicably still not work for devices that it should work for. This is entirely to do with Nintendo's servers, and I really do not have any control over it. Additionally, note that occasionally the eShop will inexplicably work for devices that it should not (such as some New 3DSs). The cause for this is currently unknown.
 
@@ -153,9 +155,3 @@ Region changing using CTRTransfer (which this method uses) seems to cause reboot
 1. Press (X) on the CTRTransfer image `.bin` to delete it
 1. Press (A) to confirm
 1. Press (Start) to reboot your device
-
-___
-
-!!! tip "Extended memory games"
-	Old 3DSs and 2DSs may need to format (using TinyFormat or the System Settings) to play extended memory mode games (such as Monster Hunter, Super Smash Bros, or Pokemon Sun/Moon).
-

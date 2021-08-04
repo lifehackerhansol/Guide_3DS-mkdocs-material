@@ -11,6 +11,8 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 
 !!! danger "Important"
 	You MUST have already installed Luma3DS and boot9strap to use this.
+	
+	Performing a CTRTransfer may break extended memory mode games (Monster Hunter, Super Smash Bros, Pokemon Sun/Moon) on Old 3DS/2DS devices. If this occurs, you will need to format the device (using TinyFormat or System Settings) to fix the issue.
 
 ## What You Need
 
