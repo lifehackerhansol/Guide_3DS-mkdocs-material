@@ -85,8 +85,8 @@ Do not follow this section until you have completed the rest of the instructions
 
 * The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 * The flashrom backup corresponding to your flashcart
-    + Note that if you followed [Flashing ntrboot (3DS Multi System)](ntrboot/flashing-ntrboot-(3ds-multi-system).md), the flashrom backup already exists in the correct location and does not need to be downloaded
-    + Note that if you followed [Flashing ntrboot (3DS Single System)](ntrboot/flashing-ntrboot-(3ds-single-system).md) or [Flashing ntrboot (NDS)](ntrboot/flashing-ntrboot-(nds).md), the flashrom backup already exists on your flashcart's SD card and should be copied to the location specified below
+    + Note that if you followed [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system).md), the flashrom backup already exists in the correct location and does not need to be downloaded
+    + Note that if you followed [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system).md) or [Flashing ntrboot (NDS)](flashing-ntrboot-(nds).md), the flashrom backup already exists on your flashcart's SD card and should be copied to the location specified below
     + If you do not know which HW revision you have, just try each for your cart of them. Only the correct one will allow your flashcart to launch properly from home menu, but flashing the wrong one will not brick the cart
 
 | Flashcart | Hardware Revision | Flashrom |

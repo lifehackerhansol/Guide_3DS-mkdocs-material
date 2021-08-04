@@ -44,8 +44,8 @@ SSLoth allows users on version 11.13.0 and below to bypass the browser version c
 1. On the HOME Menu, press the Left and Right shoulder buttons together to open the camera
     + If you are unable to open the camera, open the Internet Browser and manually type the URL instead (`https://zoogie.github.io/web/nbhax/`)
 1. Tap the QR code button and scan [this QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
-	+ If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
-	+ If the browser prompts an update, it is possible that your ISP is rerouting DNS changes. Try another internet connection, or update your console to the latest version and follow [Installing boot9strap (Browser)](installing-boot9strap-(browser)).
+	+ If you get an error, [follow this troubleshooting guide](../troubleshooting.md#a-browser-based-exploit-is-not-working)
+	+ If the browser prompts an update, it is possible that your ISP is rerouting DNS changes. Try another internet connection, or update your console to the latest version and follow [Installing boot9strap (Browser)](installing-boot9strap-(browser).md).
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
 ### Section IV - Installing boot9strap
@@ -57,7 +57,7 @@ SSLoth allows users on version 11.13.0 and below to bypass the browser version c
 ### Section V - Configuring Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
-	+ If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+	+ If you get a black screen, [follow this troubleshooting guide](../troubleshooting.md#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:
 	+ **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
@@ -75,4 +75,4 @@ SSLoth allows users on version 11.13.0 and below to bypass the browser version c
 ___
 
 !!! tip ""
-	### Continue to [Finalizing Setup](finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup.md)

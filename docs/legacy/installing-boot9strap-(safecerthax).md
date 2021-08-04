@@ -47,7 +47,7 @@ safecerthax is compatible with all Old 3DS and Old 2DS devices in all regions.
 	+ There is no update. This is part of the exploit
 1. Press "I accept" to accept the terms and conditions
 	+ The update should fail and an error message should appear
-	+ If the update does not fail, it is possible that your ISP is rerouting DNS changes. Try another internet connection, or follow an alternate method, like [Installing boot9strap (Browser)](installing-boot9strap-(browser)).
+	+ If the update does not fail, it is possible that your ISP is rerouting DNS changes. Try another internet connection, or follow an alternate method, like [Installing boot9strap (Browser)](installing-boot9strap-(browser).md).
 1. Press "OK" to close the error message
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 	+ If the console freezes or crashes, force power off the console, then retry this section
@@ -61,7 +61,7 @@ safecerthax is compatible with all Old 3DS and Old 2DS devices in all regions.
 ### Section V - Configuring Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
-	+ If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+	+ If you get a black screen, [follow this troubleshooting guide](../troubleshooting.md#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:
 	+ **"Show NAND or user string in System Settings"**
 1. Press (Start) to save and reboot
@@ -79,5 +79,5 @@ safecerthax is compatible with all Old 3DS and Old 2DS devices in all regions.
 ___
 
 !!! tip ""
-	### Continue to [Finalizing Setup](finalizing-setup)
+	### Continue to [Finalizing Setup](../finalizing-setup.md)
 
