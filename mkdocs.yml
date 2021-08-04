@@ -29,6 +29,7 @@ nav:
     - FAQ                   : faq.md
     - Troubleshooting       : troubleshooting.md
     - Credits               : credits.md
+    - Donations             : donations.md
     - Privacy Policy        : privacy-policy.md
     
 markdown_extensions:
