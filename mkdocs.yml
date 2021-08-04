@@ -18,6 +18,7 @@ nav:
         - 'Checking for CFW'                   : 'extras/checking-for-cfw.md'
         - 'CTRtransfer'                        : 'extras/ctrtransfer.md'
         - 'Dumping Titles and Game Cartridges' : 'extras/dumping-titles-and-game-cartridges.md'
+        - 'File Extensions (Windows)'          : 'extras/file-extensions-(windows).md'
         - 'Formatting SD':
             - 'Windows'                        : 'extras/formatting-sd-(windows).md'
             - 'macOS'                          : 'extras/formatting-sd-(mac).md'
