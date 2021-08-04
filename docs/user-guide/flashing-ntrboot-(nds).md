@@ -51,4 +51,4 @@ This method requires temporary access to a Nintendo DS or Nintendo DS Lite that 
 ___
 
 !!! tip ""
-	### Continue to [Installing boot9strap (ntrboot)](../installing-boot9strap-(ntrboot).md)
+	### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot).md)

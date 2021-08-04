@@ -55,7 +55,7 @@ The purpose of this section is to check whether built-in DS mode applications wi
 1. Power off your device
 
 !!! warning "Failed DS Mode test"
-	If either of these tests has failed, DS mode, DS Download Play, and/or DS Connection Settings may be inaccessible once CFW is uninstalled! You should [fix DS mode](../troubleshooting.md#dsi--ds-functionality-is-broken-after-completing-the-guide) before continuing.
+	If either of these tests has failed, DS mode, DS Download Play, and/or DS Connection Settings may be inaccessible once CFW is uninstalled! You should [fix DS mode](../troubleshooting.md#dsi-ds-functionality-is-broken-after-completing-the-guide) before continuing.
 
 
 ### Section III - Safety Test
