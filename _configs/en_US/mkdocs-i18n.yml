@@ -1,0 +1,4 @@
+INHERIT: ../../mkdocs-base-config.yml
+
+docs_dir: ../../_pages/en_US
+site_dir: ../../site

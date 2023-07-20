@@ -1,0 +1,32 @@
+# GitHub already does this for us...
+use_directory_urls: false
+
+
+theme: 
+  name: material
+  custom_dir: ../../extras
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+extra_css:
+  - assets/css/selecting.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+
+plugins:
+  - include-markdown:
+      dedent: true

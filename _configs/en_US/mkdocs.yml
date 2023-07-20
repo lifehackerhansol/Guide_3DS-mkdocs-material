@@ -1,0 +1,41 @@
+INHERIT: mkdocs-i18n.yml
+
+site_name: 3DS Hacks Guide
+theme: 
+    name: material
+copyright: Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/Guide-3DS_mkdocs/credits">NH Discord Server</a>.
+site_description: 3DS Hacks Guide.
+site_author: NH Discord Server.
+
+nav:
+    - Home                  : index.md
+    - User Guide:
+        - 'Get Started'     : 'get-started.md'
+        - 'Finalizing Setup': finalizing-setup.md
+    - Extras:
+        - 'A9LH to B9S'                        : 'a9lh-to-b9s.md'
+        - 'Checking for CFW'                   : 'checking-for-cfw.md'
+        - 'CTRTransfer'                        : 'ctrtransfer.md'
+        - 'Dumping Titles and Game Cartridges' : 'dumping-titles-and-game-cartridges.md'
+        - 'File Extensions (Windows)'          : 'file-extensions-(windows).md'
+        - 'Formatting SD':
+            - 'Windows'                        : 'formatting-sd-(windows).md'
+            - 'macOS'                          : 'formatting-sd-(mac).md'
+            - 'Linux'                          : 'formatting-sd-(linux).md'
+        - 'GodMode9 Usage'                     : 'godmode9-usage.md'
+        - 'Move EmuNAND'                       : 'move-emunand.md'
+        - 'Region Changing'                    : 'region-changing.md'
+        - 'Restoring / Updating CFW'           : 'restoring-updating-cfw.md'
+        - 'SD Error Testing':
+            - 'Windows'                        : 'h2testw-(windows).md'
+            - 'macOS (10.13 or higher)'        : 'f3xswift-(mac).md'
+            - 'macOS (10.12 or lower)'         : 'f3x-(mac).md'
+            - 'Linux'                          : 'f3-(linux).md'
+        - 'Updating B9S'                       : 'updating-b9s.md'
+        - 'Uninstall CFW'                      : 'uninstall-cfw.md'
+    - FAQ                   : faq.md
+    - Troubleshooting       : troubleshooting.md
+    - Credits               : credits.md
+    - Contribute            : contribute.md
+    - Privacy Policy        : privacy-policy.md
+    - Site Navigation       : site-navigation.md

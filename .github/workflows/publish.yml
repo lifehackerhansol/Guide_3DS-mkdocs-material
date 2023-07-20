@@ -3,36 +3,53 @@ name: Deploy site
 on:
   push:
     branches: [ master ]
-  workflow_dispatch:
 
 jobs:
   doc-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v3
         with:
           persist-credentials: false
 
-      - uses: ruby/setup-ruby@v1
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v4
         with:
-          ruby-version: '3.2'
-          bundler-cache: true
+          # Semantic version range syntax or exact version of a Python version
+          python-version: '3.11.0'
 
-      - name: Run Jekyll
-        # Build the site using Jekyll
-        run: JEKYLL_ENV=production bundle exec jekyll build
+      # You can test your matrix by printing the current Python version
+      - name: Display Python version
+        run: python -c "import sys; print(sys.version)"
 
-        # Copy (or touch) other needed files
-        # .nojekyll: to tell GH Pages to not rebuild (lol)
-        # CNAME: to tell GH Pages about the domain name
-      - name: Post-Jekyll build copy files
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          # This path is specific to Ubuntu
+          path: ~/.cache/pip
+          # Look to see if there is a cache hit for the corresponding requirements file
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            ${{ runner.os }}-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Mkdocs
+        # Build the site using mkdocs
+        # no strict mode for now, get-started throws an error
+        run: mkdocs build --verbose --clean
+
+      - name: Post-Mkdocs touch/copy files
+        # miscellaneous files needed for GitHub etc
         run: |
-          touch _site/.nojekyll
+          touch site/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: _site # The folder the action should deploy.
+          folder: site # The folder the action should deploy.
           clean: true # Automatically remove deleted files from the deploy branch
