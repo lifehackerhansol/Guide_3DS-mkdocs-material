@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+
+  test-site:
+    build: .
+    image: hacks-guide/guide_3ds
+    ports:
+      - 8080:80
