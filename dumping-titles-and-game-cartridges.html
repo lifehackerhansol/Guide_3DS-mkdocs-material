@@ -1,0 +1,1299 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="3DS Hacks Guide.">
+      
+      
+        <meta name="author" content="NH Discord Server.">
+      
+      
+      
+        <link rel="prev" href="ctrtransfer.html">
+      
+      
+        <link rel="next" href="file-extensions-%28windows%29.html">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.3">
+    
+    
+      
+        <title>Dumping Titles and Game Cartridges - 3DS Hacks Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0e669242.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#required-reading" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="3DS Hacks Guide" class="md-header__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3DS Hacks Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Dumping Titles and Game Cartridges
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="3DS Hacks Guide" class="md-nav__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    3DS Hacks Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-started.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="finalizing-setup.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finalizing Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extras
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Extras
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="a9lh-to-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A9LH to B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="checking-for-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checking for CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ctrtransfer.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTRTransfer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Dumping Titles and Game Cartridges
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="dumping-titles-and-game-cartridges.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Dumping Titles and Game Cartridges
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#required-reading" class="md-nav__link">
+    Required Reading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-godmode9" class="md-nav__link">
+    Updating GodMode9
+  </a>
+  
+    <nav class="md-nav" aria-label="Updating GodMode9">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-you-need" class="md-nav__link">
+    What You Need
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumping-a-game-cartridge" class="md-nav__link">
+    Dumping a Game Cartridge
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-a-game-cartridge-directly-to-the-system" class="md-nav__link">
+    Installing a Game Cartridge Directly to the System
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumping-a-3ds-game-cartridge-to-cia" class="md-nav__link">
+    Dumping a 3DS Game Cartridge to .CIA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumping-an-installed-title" class="md-nav__link">
+    Dumping an Installed Title
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backup-gba-vc-saves" class="md-nav__link">
+    Backup GBA VC Saves
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restore-gba-vc-saves" class="md-nav__link">
+    Restore GBA VC Saves
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encrypting-decrypting-a-cia-file" class="md-nav__link">
+    Encrypting / Decrypting a .CIA file
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="file-extensions-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    File Extensions (Windows)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Formatting SD
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Formatting SD
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="godmode9-usage.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GodMode9 Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="move-emunand.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Move EmuNAND
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="region-changing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Region Changing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="restoring-updating-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Restoring / Updating CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SD Error Testing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            SD Error Testing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="h2testw-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3xswift-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.13 or higher)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3x-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.12 or lower)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="updating-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="uninstall-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uninstall CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="troubleshooting.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="credits.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contribute.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="privacy-policy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="site-navigation.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Site Navigation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#required-reading" class="md-nav__link">
+    Required Reading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-godmode9" class="md-nav__link">
+    Updating GodMode9
+  </a>
+  
+    <nav class="md-nav" aria-label="Updating GodMode9">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-you-need" class="md-nav__link">
+    What You Need
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumping-a-game-cartridge" class="md-nav__link">
+    Dumping a Game Cartridge
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-a-game-cartridge-directly-to-the-system" class="md-nav__link">
+    Installing a Game Cartridge Directly to the System
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumping-a-3ds-game-cartridge-to-cia" class="md-nav__link">
+    Dumping a 3DS Game Cartridge to .CIA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dumping-an-installed-title" class="md-nav__link">
+    Dumping an Installed Title
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backup-gba-vc-saves" class="md-nav__link">
+    Backup GBA VC Saves
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restore-gba-vc-saves" class="md-nav__link">
+    Restore GBA VC Saves
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encrypting-decrypting-a-cia-file" class="md-nav__link">
+    Encrypting / Decrypting a .CIA file
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Dumping Titles and Game Cartridges</h1>
+
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For support (in English) with GodMode9, as well as help with scripting and to get updates and info, join <a href="https://discord.gg/BRcbvtFxX4">GodMode9 on Discord</a>.</p>
+</div>
+<h3 id="required-reading">Required Reading</h3>
+<p>Aside from creating and restoring NAND backups, GodMode9 has the functionality to dump installed titles to an installable <code>.cia</code> file, to dump game cartridge data to a <code>.3ds</code> ROM file, and to directly install a game cartridge to the system.</p>
+<h2 id="updating-godmode9">Updating GodMode9</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>These instructions are written for use with GodMode9 v2.0.0 or later. If you have an older version of GodMode9, follow these instructions to update it.</p>
+</div>
+<h3 id="what-you-need">What You Need</h3>
+<ul>
+<li>The latest release of <a href="https://github.com/d0k3/GodMode9/releases/latest">GodMode9</a> (the GodMode9 <code>.zip</code> file)</li>
+</ul>
+<h3 id="instructions">Instructions</h3>
+<ol>
+<li>Power off your console</li>
+<li>Insert your SD card into your computer</li>
+<li>Copy <code>GodMode9.firm</code> from the GodMode9 <code>.zip</code> to the <code>/luma/payloads/</code> folder on your SD card</li>
+<li>Copy the <code>gm9</code> folder from the GodMode9 <code>.zip</code> to the root of your SD card</li>
+<li>Reinsert your SD card into your console</li>
+</ol>
+<h2 id="dumping-a-game-cartridge">Dumping a Game Cartridge</h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Insert the game cartridge you intend to dump into your console
+    + 3DS game cartridges will be dumped to a <code>.3ds</code> format
+    + NDS game cartridges will be dumped to a <code>.nds</code> format</p>
+</div>
+<ol>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Navigate to <code>[C:] GAMECART</code></li>
+<li>Follow the steps applicable to your game cartridge:<ul>
+<li><strong>3DS Game Cartridge:</strong> Press (A) on <code>[TitleID].trim.3ds</code> to select it</li>
+<li><strong>NDS Game Cartridge:</strong> Press (A) on <code>[TitleID].nds</code> to select it<ul>
+<li>Trimmed dumps are not recommended for NDS games in general, as they can cause various playback issues</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Select "Copy to 0:/gm9/out"</li>
+<li>Your non-installable <code>.3ds</code> or <code>.nds</code> formatted file will be outputted to the <code>/gm9/out/</code> folder on your SD card</li>
+</ol>
+<h2 id="installing-a-game-cartridge-directly-to-the-system">Installing a Game Cartridge Directly to the System</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This will only work for 3DS games; it is not possible to install an NDS game cartridge to the system as a title.</p>
+</div>
+<ol>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Navigate to <code>[C:] GAMECART</code></li>
+<li>Press (A) on <code>[TitleID].trim.3ds</code> to select it, then select "NCSD image options...", then select "Install game image"</li>
+<li>Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given</li>
+<li>Once the process is complete, your game will show up in the HOME Menu as an installed title.</li>
+</ol>
+<h2 id="dumping-a-3ds-game-cartridge-to-cia">Dumping a 3DS Game Cartridge to .CIA</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This should only be used if <a href="#installing-a-game-cartridge-directly-to-the-system">Installing a Game Cartridge Directly to the System</a> does not work.</p>
+</div>
+<ol>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Navigate to <code>[C:] GAMECART</code></li>
+<li>Press (A) on <code>[TitleID].trim.3ds</code> to select it, then select "NCSD image options...", then select "Build CIA from file"</li>
+<li>Your installable <code>.cia</code> formatted file will be outputted to the <code>/gm9/out/</code> folder on your SD card</li>
+</ol>
+<h2 id="dumping-an-installed-title">Dumping an Installed Title</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This allows dumping of both System- and User-installed digital titles, such as ones downloaded from the eShop.</p>
+</div>
+<ol>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Press (Home) to bring up the action menu</li>
+<li>Select "Title manager"</li>
+<li>Select one of the following depending on the type of title you wish to dump<ul>
+<li><strong>User Installed Title</strong>: <code>[A:] SD CARD</code></li>
+<li><strong>System Title / DSiWare</strong>: <code>[1:] NAND / TWL</code></li>
+</ul>
+</li>
+<li>Select the title you wish to dump</li>
+<li>Select "Manage Title..."</li>
+<li>Select "Build CIA (standard)"</li>
+<li>Your installable <code>.cia</code> formatted file will be outputted to the <code>/gm9/out/</code> folder on your SD card</li>
+</ol>
+<h2 id="backup-gba-vc-saves">Backup GBA VC Saves</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The game will be outputted to the <code>/gm9/out/</code> folder on your SD card with the name <code>&lt;TitleID&gt;.gbavc.sav</code>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To identify a <code>&lt;TitleID&gt;.gbavc.sav</code> file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by pressing (Home) to bring up the action menu, selecting <code>Title manager</code>, and selecting <code>[A:] SD CARD</code>.</p>
+</div>
+<ol>
+<li>Do the following process for each GBA VC game that you want to back up the save for:<ul>
+<li>Launch the GBA VC game</li>
+<li>Exit the GBA VC game</li>
+<li>Power off your console</li>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Navigate to <code>[S:] SYSNAND VIRTUAL</code></li>
+<li>Press (A) on <code>agbsave.bin</code> to select it</li>
+<li>Select "AGBSAVE options..."</li>
+<li>Select "Dump GBA VC save"</li>
+<li>Press (A) to continue</li>
+<li>Press (Start) to reboot your console</li>
+</ul>
+</li>
+</ol>
+<h2 id="restore-gba-vc-saves">Restore GBA VC Saves</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To identify a <code>&lt;TitleID&gt;.gbavc.sav</code> file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by pressing (Home) to bring up the action menu, selecting <code>Title manager</code>, and selecting <code>[A:] SD CARD</code>.</p>
+</div>
+<ol>
+<li>Do the following process for each GBA VC game that you want to restore the save for:<ul>
+<li>Launch the GBA VC game</li>
+<li>Exit the GBA VC game</li>
+<li>Power off your console</li>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Navigate to <code>[0:] SDCARD</code> -&gt; <code>gm9</code></li>
+<li>Press (Y) on the <code>&lt;TitleID&gt;.gbavc.sav</code> file you wish to restore to copy it</li>
+<li>Press (B) to return to the main menu</li>
+<li>Navigate to <code>[S:] SYSNAND VIRTUAL</code></li>
+<li>Press (A) on <code>agbsave.bin</code> to select it</li>
+<li>Select "AGBSAVE options..."</li>
+<li>Select "Inject GBA VC save"</li>
+<li>Press (A) to continue</li>
+<li>Press (Start) to reboot your console</li>
+<li>Launch the GBA VC game</li>
+<li>Exit the GBA VC game</li>
+</ul>
+</li>
+</ol>
+<h2 id="encrypting-decrypting-a-cia-file">Encrypting / Decrypting a .CIA file</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For organizational purposes, copy each <code>.cia</code> file you wish to encrypt / decrypt to the <code>/cias/</code> folder on your SD card</p>
+</div>
+<ol>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Navigate to <code>[0:] SDCARD</code> -&gt; <code>cias</code></li>
+<li>Press (A) on the <code>.cia</code> file to select it, then select "CIA image options..."</li>
+<li>Select the option to perform the desired function:<ul>
+<li><strong>Encrypt to 0:/gm9/out:</strong> Create an encrypted copy of the selected <code>.cia</code> file in the <code>/gm9/out/</code> folder on your SD card</li>
+<li><strong>Decrypt to 0:/gm9/out:</strong> Create a decrypted copy of the selected <code>.cia</code> file in the <code>/gm9/out/</code> folder on your SD card</li>
+<li><strong>Encrypt inplace:</strong> Replace the selected <code>.cia</code> file with an encrypted version</li>
+<li><strong>Decrypt inplace:</strong> Replace the selected <code>.cia</code> file with a decrypted version</li>
+</ul>
+</li>
+<li>Your encrypted / decrypted <code>.cia</code> will be outputted to the desired location</li>
+</ol>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/Guide-3DS_mkdocs/credits">NH Discord Server</a>.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+    
+  </body>
+</html>

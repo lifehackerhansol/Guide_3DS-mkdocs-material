@@ -1,0 +1,1844 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="3DS Hacks Guide.">
+      
+      
+        <meta name="author" content="NH Discord Server.">
+      
+      
+      
+        <link rel="prev" href="faq.html">
+      
+      
+        <link rel="next" href="credits.html">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.3">
+    
+    
+      
+        <title>Troubleshooting - 3DS Hacks Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0e669242.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#issues-with-safeb9sinstaller" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="3DS Hacks Guide" class="md-header__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3DS Hacks Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Troubleshooting
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="3DS Hacks Guide" class="md-nav__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    3DS Hacks Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-started.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="finalizing-setup.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finalizing Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extras
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Extras
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="a9lh-to-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A9LH to B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="checking-for-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checking for CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ctrtransfer.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTRTransfer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dumping-titles-and-game-cartridges.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dumping Titles and Game Cartridges
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="file-extensions-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    File Extensions (Windows)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Formatting SD
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Formatting SD
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="godmode9-usage.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GodMode9 Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="move-emunand.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Move EmuNAND
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="region-changing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Region Changing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="restoring-updating-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Restoring / Updating CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SD Error Testing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            SD Error Testing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="h2testw-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3xswift-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.13 or higher)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3x-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.12 or lower)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="updating-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="uninstall-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uninstall CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="troubleshooting.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#issues-with-safeb9sinstaller" class="md-nav__link">
+    Issues with SafeB9SInstaller
+  </a>
+  
+    <nav class="md-nav" aria-label="Issues with SafeB9SInstaller">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-opening-safeb9sinstaller" class="md-nav__link">
+    Before opening SafeB9SInstaller
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info" class="md-nav__link">
+    SigHaxed FIRM was not installed! Check lower screen for more info.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seedminer" class="md-nav__link">
+    Seedminer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bannerbomb3" class="md-nav__link">
+    BannerBomb3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-fredtool-inject" class="md-nav__link">
+    Installing boot9strap (Fredtool-Inject)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-pichaxx" class="md-nav__link">
+    Installing boot9strap (PicHaxx)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-soundhax" class="md-nav__link">
+    Installing boot9strap (Soundhax)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-ssloth-browser" class="md-nav__link">
+    Installing boot9strap (SSLoth-Browser)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-super-skaterhax" class="md-nav__link">
+    Installing boot9strap (super-skaterhax)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finalizing-setup" class="md-nav__link">
+    Finalizing Setup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boot-issues-on-consoles-with-custom-firmware" class="md-nav__link">
+    Boot issues on consoles with custom firmware
+  </a>
+  
+    <nav class="md-nav" aria-label="Boot issues on consoles with custom firmware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#powernotification-light-indicators" class="md-nav__link">
+    Power/notification light indicators
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-message-on-boot" class="md-nav__link">
+    Error message on boot
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-issues-on-consoles-with-custom-firmware" class="md-nav__link">
+    Software issues on consoles with custom firmware
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-troubleshooting" class="md-nav__link">
+    Other troubleshooting
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="credits.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contribute.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="privacy-policy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="site-navigation.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Site Navigation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#issues-with-safeb9sinstaller" class="md-nav__link">
+    Issues with SafeB9SInstaller
+  </a>
+  
+    <nav class="md-nav" aria-label="Issues with SafeB9SInstaller">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-opening-safeb9sinstaller" class="md-nav__link">
+    Before opening SafeB9SInstaller
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info" class="md-nav__link">
+    SigHaxed FIRM was not installed! Check lower screen for more info.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seedminer" class="md-nav__link">
+    Seedminer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bannerbomb3" class="md-nav__link">
+    BannerBomb3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-fredtool-inject" class="md-nav__link">
+    Installing boot9strap (Fredtool-Inject)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-pichaxx" class="md-nav__link">
+    Installing boot9strap (PicHaxx)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-soundhax" class="md-nav__link">
+    Installing boot9strap (Soundhax)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-ssloth-browser" class="md-nav__link">
+    Installing boot9strap (SSLoth-Browser)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-boot9strap-super-skaterhax" class="md-nav__link">
+    Installing boot9strap (super-skaterhax)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finalizing-setup" class="md-nav__link">
+    Finalizing Setup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boot-issues-on-consoles-with-custom-firmware" class="md-nav__link">
+    Boot issues on consoles with custom firmware
+  </a>
+  
+    <nav class="md-nav" aria-label="Boot issues on consoles with custom firmware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#powernotification-light-indicators" class="md-nav__link">
+    Power/notification light indicators
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-message-on-boot" class="md-nav__link">
+    Error message on boot
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-issues-on-consoles-with-custom-firmware" class="md-nav__link">
+    Software issues on consoles with custom firmware
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-troubleshooting" class="md-nav__link">
+    Other troubleshooting
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Troubleshooting</h1>
+
+<p>This page offers troubleshooting advice for commonly encountered issues. If you are unable to solve your issue with the advice on this page, please join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> and describe your issue, including what you have already tried.</p>
+<details class="info">
+<summary>Table of Contents</summary>
+<p>Used on multiple pages:</p>
+<ul>
+<li><a href="#issues-with-safeb9sinstaller">SafeB9SInstaller</a></li>
+</ul>
+<p>Guide pages:</p>
+<ul>
+<li><a href="#seedminer">Seedminer</a><ul>
+<li><a href="#bannerbomb3">BannerBomb3</a></li>
+<li><a href="#installing-boot9strap-fredtool-inject">Installing boot9strap (Fredtool-Inject)</a></li>
+<li><a href="#installing-boot9strap-pichaxx">Installing boot9strap (PicHaxx)</a></li>
+</ul>
+</li>
+<li><a href="#installing-boot9strap-soundhax">Installing boot9strap (Soundhax)</a></li>
+<li><a href="#installing-boot9strap-ssloth-browser">Installing boot9strap (SSLoth-Browser)</a></li>
+<li>
+<p><a href="#installing-boot9strap-super-skaterhax">Installing boot9strap (super-skaterhax)</a></p>
+</li>
+<li>
+<p><a href="#finalizing-setup">Finalizing Setup</a></p>
+</li>
+</ul>
+<p>Issues after installation:</p>
+<ul>
+<li><a href="#boot-issues-on-consoles-with-custom-firmware">Boot issues</a></li>
+<li><a href="#software-issues-on-consoles-with-custom-firmware">Software issues</a></li>
+</ul>
+</details>
+<h2 id="issues-with-safeb9sinstaller">Issues with SafeB9SInstaller</h2>
+<h3 id="before-opening-safeb9sinstaller">Before opening SafeB9SInstaller</h3>
+<details class="note">
+<summary>Failed to open SafeB9SInstaller.bin</summary>
+<p>The file <code>SafeB9SInstaller.bin</code> is missing or misplaced. Download the latest release of <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a>, extract it, and place <code>SafeB9SInstaller.bin</code> on the root of your SD card. Do not add the <code>.bin</code> extension if you do not already see it.</p>
+</details>
+<h3 id="sighaxed-firm-was-not-installed-check-lower-screen-for-more-info">SigHaxed FIRM was not installed! Check lower screen for more info.</h3>
+<details class="note">
+<summary>MicroSD Card - init failed</summary>
+<p>Your SD card is most likely acting weird. Try reformatting your SD card (<a href="formatting-sd-(windows)">Windows</a>, <a href="formatting-sd-(mac)">macOS</a>, <a href="formatting-sd-(linux)">Linux</a>). If this doesn't work, try another SD card.</p>
+</details>
+<details class="note">
+<summary>SigHaxed FIRM - File not found</summary>
+<p>You are missing <code>boot9strap.firm</code> and <code>boot9strap.firm.sha</code> from the <code>boot9strap</code> folder, or the <code>boot9strap</code> folder is misnamed. Download the latest release of <a href="https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip">boot9strap</a>, and place <code>boot9strap.firm</code> and <code>boot9strap.firm.sha</code> in the <code>boot9strap</code> folder.</p>
+</details>
+<details class="note">
+<summary>SigHaxed FIRM - invalid FIRM</summary>
+<p>There is an issue with your <code>boot9strap.firm</code> and <code>boot9strap.firm.sha</code> files. Re-download the latest release of <a href="https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip">boot9strap</a>, and place <code>boot9strap.firm</code> and <code>boot9strap.firm.sha</code> in the <code>boot9strap</code> folder.</p>
+</details>
+<details class="note">
+<summary>Secret Sector - File not found</summary>
+<p>You are missing <code>secret_sector.bin</code> from the <code>boot9strap</code> folder, or the <code>boot9strap</code> folder is misnamed. Download <a href="magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&amp;dn=secret_sector.bin&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce">secret_sector.bin</a> using a torrent client, and place it in the <code>boot9strap</code> folder.</p>
+</details>
+<details class="note">
+<summary>Something else</summary>
+<p>Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for assistance, and describe the message that you see.</p>
+</details>
+<h2 id="seedminer">Seedminer</h2>
+<details class="note">
+<summary>Multiple long folder names in Nintendo 3DS folder</summary>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><img alt="" src="/images/screenshots/multiple-id0.png" /></p>
+</div>
+<p>This occurs when you use your SD card in multiple 3DS consoles and is intended to prevent inadvertently merging data that would not be valid on other consoles. To figure out which long folder name is correct for your 3DS, follow these instructions:</p>
+<ol>
+<li>Rename the <code>Nintendo 3DS</code> folder to <code>BACKUP_Nintendo 3DS</code></li>
+<li>Reinsert your SD card into your console</li>
+<li>Power on your console</li>
+<li>Wait for the console to generate the SD card data<ul>
+<li>Your applications will have disappeared. This is normal and will be resolved shortly</li>
+</ul>
+</li>
+<li>Power off your console</li>
+<li>Insert your SD card into your computer</li>
+<li>Navigate to the <code>Nintendo 3DS</code> folder on your SD card</li>
+<li>Copy the 32 character long name of the folder you see<ul>
+<li>This is your true ID0 that you will use in <a href="seedminer#section-ii---seedminer">Section II of Seedminer</a></li>
+</ul>
+</li>
+<li>Delete the <code>Nintendo 3DS</code> folder</li>
+<li>Rename the <code>BACKUP_Nintendo 3DS</code> folder to <code>Nintendo 3DS</code></li>
+</ol>
+</details>
+<details class="note">
+<summary>Bruteforce Movable skips to step 4</summary>
+<p>The website has already mined your <code>movable.sed</code> using your friend code and ID0 combination. You can use the <code>movable.sed</code> that it provides you.</p>
+</details>
+<details class="note">
+<summary>Important! You have been locked out of the automated part1 dumper system...</summary>
+<p>Your friend code was blocked from using the friend code bot because your 3DS did not successfully friend the bot. Ensure your 3DS is properly connected to the Internet, then join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> and ask to be unlocked.</p>
+</details>
+<details class="note">
+<summary>We were unable to successfully complete your bruteforce request. :`(</summary>
+<p>The website has determined that your <code>movable.sed</code> cannot be brute-forced. Ensure that you gave the correct ID0 to the website. If your ID0 is correct, then you will be unable to use Seedminer and you will have to use an alternate method.</p>
+<p>If you have a New 3DS / New 3DS XL / New 2DS XL (as indicated by the four shoulder buttons on the back and the C-Stick on the right), you can follow <a href="installing-boot9strap-(super-skaterhax)">Installing boot9strap (super-skaterhax)</a>. Otherwise, you will need to follow a method that requires additional games or hardware.</p>
+</details>
+<h2 id="bannerbomb3">BannerBomb3</h2>
+<details class="note">
+<summary>Multiple ID1 folders inside of ID0</summary>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><img alt="" src="/images/screenshots/multiple-id1.png" /></p>
+</div>
+<p>This can occur if you've used multiple SD cards on a 3DS and then merged the contents of the SD cards together. This is done to prevent conflicting, valid data from being merged together.</p>
+<p>To fix this, you will need to determine which folder contains your data. Usually, this will be the larger (or largest) of the folders. Backup and delete the smaller one(s), then create a <code>Nintendo DSiWare</code> folder in the one that remains and move <code>F00D43D5.bin</code> to that location.</p>
+</details>
+<details class="note">
+<summary>DSiWare Management menu crashes without showing BB3 multihax menu</summary>
+<p>Ensure that <code>F00D43D5.bin</code> is the only file in <code>Nintendo 3DS</code> -&gt; <code>&lt;ID0&gt;</code> -&gt; <code>&lt;ID1&gt;</code> -&gt; <code>Nintendo DSiWare</code>. If it is, then re-create it with the <a href="https://zoogie.github.io/web/bb3">Bannerbomb3 Injector</a>.</p>
+<p>Also, ensure that <code>bb3.bin</code> is on the root of the SD card. If it is missing, then download the latest release of <a href="https://github.com/zoogie/Bannerbomb3/releases/download/v3.0/Release_v3.0.zip">Bannerbomb3</a> (direct download), and copy the <code>bb3.bin</code> file from the Release <code>.zip</code> to the root of your SD card.</p>
+<p>If neither of these solutions fixes this problem, then custom firmware may have been uninstalled on this console in a way that makes this method impossible to perform. If this is the case, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> and ask, in English, for help.</p>
+</details>
+<details class="note">
+<summary>DSiWare Management menu displays "No accessible software data."</summary>
+<p><code>F00D43D5.bin</code> is missing from <code>Nintendo 3DS</code> -&gt; <code>&lt;ID0&gt;</code> -&gt; <code>&lt;ID1&gt;</code> -&gt; <code>Nintendo DSiWare</code>. Make sure that <code>Nintendo DSiWare</code> is correctly spelled and spaced. Uppercase/lowercase does not matter.</p>
+</details>
+<details class="note">
+<summary>DSiWare Management shows a question mark</summary>
+<p>There may be an issue with your <code>F00D43D5.bin</code> file (it may be corrupted or intended for the wrong 3DS). Re-create your <code>F00D43D5.bin</code> file with the <a href="https://zoogie.github.io/web/bb3">Bannerbomb3 Injector</a>, ensuring that you use the <code>movable.sed</code> file for your console.</p>
+</details>
+<h2 id="installing-boot9strap-fredtool-inject">Installing boot9strap (Fredtool-Inject)</h2>
+<details class="note">
+<summary>Error on DSiHaxInjector page</summary>
+<p>Ensure that your <code>movable.sed</code> and DSiWare backup come from the same console. A mismatch will result in an error.</p>
+</details>
+<details class="note">
+<summary>"Haxxxxxxxxx!" does not appear</summary>
+<p>There is an issue with your <code>42383821.bin</code> file (it is incorrect, missing, misplaced, or corrupted). Re-create your files with the <a href="https://jenkins.nelthorya.net/job/DSIHaxInjector_new/build?delay=0sec">DSIHaxInjector_new</a> website and ensure that you place the <code>42383821.bin</code> file from <code>output.zip</code> -&gt; <code>hax</code> in <code>Nintendo 3DS</code> -&gt; <code>&lt;ID0&gt;</code> -&gt; <code>&lt;ID1&gt;</code> -&gt; <code>Nintendo DSiWare</code>.</p>
+</details>
+<details class="note">
+<summary>DSiWare launches normally</summary>
+<p><code>Haxxxxxxxxx!</code> was not copied from your SD card to your system memory.</p>
+</details>
+<details class="note">
+<summary>SD card is grayed out in Flipnote</summary>
+<p>Flipnote may take a long time to index your card if you have a large SD card. Let it sit for a few minutes.</p>
+</details>
+<details class="note">
+<summary>Lenny face does not appear in SD card section</summary>
+<p>You did not copy the <code>private</code> folder from the Frogminer_save <code>.zip</code> to the root of your SD card.</p>
+</details>
+<details class="note">
+<summary>Flipnote freezes</summary>
+<p>You may have accidentally touched the touch screen while in the modified Flipnote. Re-enter DS Connection Settings and try again, ensuring that you don't accidentally use the touchscreen.</p>
+</details>
+<details class="note">
+<summary>Green screen after pasting</summary>
+<p>The file <code>boot.nds</code> is missing or misplaced. Download the latest release of <a href="https://github.com/zoogie/b9sTool/releases/latest">b9stool</a> and place <code>boot.nds</code> on the root of your SD card, replacing the existing one.</p>
+</details>
+<details class="note">
+<summary>White screen after pasting</summary>
+<p>There is an issue with your <code>boot.nds</code> file. Re-download the latest release of <a href="https://github.com/zoogie/b9sTool/releases/latest">b9stool</a> and place <code>boot.nds</code> on the root of your SD card, replacing the existing one.</p>
+</details>
+<details class="note">
+<summary>Unable to open Luma3DS configuration menu after running B9STool</summary>
+<p>Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> and explain what has happened.</p>
+</details>
+<h2 id="installing-boot9strap-pichaxx">Installing boot9strap (PicHaxx)</h2>
+<details class="note">
+<summary>"An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)</summary>
+<p>Your <code>00000001.sav</code> and/or <code>otherapp.bin</code> files may be misplaced. Ensure that <code>00000001.sav</code> is in <code>Nintendo 3DS</code> -&gt; <code>&lt;ID0&gt;</code> -&gt; <code>&lt;ID1&gt;</code> -&gt; <code>title</code> -&gt; <code>00040000</code> -&gt; <code>0017c100</code> -&gt; <code>data</code> and that <code>otherapp.bin</code> is on the root of your SD card.</p>
+<p>If your files are in the correct locations, re-create the save using the <a href="https://3dstools.nhnarwhal.com/#/pichaxx">PicHaxx Save Tool</a>, then place it in <code>Nintendo 3DS</code> -&gt; <code>&lt;ID0&gt;</code> -&gt; <code>&lt;ID1&gt;</code> -&gt; <code>title</code> -&gt; <code>00040000</code> -&gt; <code>0017c100</code> -&gt; <code>data</code>. Ensure that the file is named exactly <code>00000001.sav</code> and that you used your console's <code>movable.sed</code> to create it. Re-download <a href="https://github.com/zoogie/ninjhax2.x/releases/download/v11.17/otherapps_with_CfgS_11.17.zip">HBL otherapps</a>, place the <code>.bin</code> file relevant to your console to the root of your SD card, and rename it to <code>otherapp.bin</code>. Do not add the <code>.bin</code> extension if you do not already see it.</p>
+</details>
+<details class="note">
+<summary>"An exception occurred" or Errdisp when opening Picross</summary>
+<p>Your console already has custom firmware. You should <a href="checking-for-cfw">check for CFW</a>.</p>
+</details>
+<details class="note">
+<summary>"An error has occurred, forcing the software to close..." (white message box)</summary>
+<p>There is an issue with your <code>otherapp.bin</code> file. Download <a href="https://github.com/zoogie/ninjhax2.x/releases/download/v11.17/otherapps_with_CfgS_11.17.zip">HBL otherapps</a>, place the <code>.bin</code> file relevant to your console to the root of your SD card, and rename it to <code>otherapp.bin</code>. Do not add the <code>.bin</code> extension if you do not already see it.</p>
+</details>
+<details class="note">
+<summary>Game starts normally</summary>
+<p>Your modified <code>00000001.sav</code> file may be misplaced, or you may have used the wrong <code>movable.sed</code> when creating it. Re-generate your <code>movable.sed</code> from <a href="https://seedminer.hacks.guide">Bruteforce Movable</a>, then re-create the save using the <a href="https://3dstools.nhnarwhal.com/#/pichaxx">PicHaxx Save Tool</a> and place the resulting file (<code>00000001.sav</code>) in <code>Nintendo 3DS</code> -&gt; <code>&lt;ID0&gt;</code> -&gt; <code>&lt;ID1&gt;</code> -&gt; <code>title</code> -&gt; <code>00040000</code> -&gt; <code>0017c100</code> -&gt; <code>data</code>.</p>
+</details>
+<h2 id="installing-boot9strap-soundhax">Installing boot9strap (Soundhax)</h2>
+<details class="note">
+<summary>Red/purple/pink and white screen after running Soundhax</summary>
+<p>If your console is on system version 9.4.0, 9.5.0, or 9.6.0, you may be encountering a bug with an old version of universal-otherapp. Download the latest version from <a href="https://github.com/TuxSH/universal-otherapp/releases/latest">here</a>.</p>
+<p>If your console is not on those firmwares, it likely indicates that you already have custom firmware. You should <a href="checking-for-cfw">check for CFW</a>.</p>
+</details>
+<details class="note">
+<summary>"An error has occurred, forcing the software to close..." (white message box)</summary>
+<p>There is an issue with your <code>otherapp.bin</code> file (it is missing, misplaced, or corrupted). Download the latest release of <a href="https://github.com/TuxSH/universal-otherapp/releases/latest">universal-otherapp</a> and place it on the root of your SD card.</p>
+</details>
+<details class="note">
+<summary>"Could not play"</summary>
+<p>You have the wrong Soundhax file for your console and region, or your console is incompatible with Soundhax. In the latter case, your course of action will determine on what version your 3DS is currently on. Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for assistance.</p>
+</details>
+<details class="note">
+<summary>Failed to mount the SD card!</summary>
+<p>Back up your data and reformat your SD card as FAT32 with the recommended tool depending on your operating system (<a href="formatting-sd-(windows)">Windows</a>, <a href="formatting-sd-(mac)">macOS</a>, <a href="formatting-sd-(linux)">Linux</a>). MiniTool Partition Wizard and the HP formatting tool (HPUSBDisk) are known to cause issues with 3DS SD cards.</p>
+<p>If this is unsuccessful, try using another SD card.</p>
+</details>
+<h2 id="installing-boot9strap-ssloth-browser">Installing boot9strap (SSLoth-Browser)</h2>
+<details class="note">
+<summary>Red/purple/pink and white screen after running Browserhax</summary>
+<p>This likely indicates that you already have custom firmware. You should <a href="checking-for-cfw">check for CFW</a>.</p>
+</details>
+<details class="note">
+<summary>"An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)</summary>
+<p>The file <code>arm11code.bin</code> is missing or misplaced. Download the latest release of <a href="https://github.com/TuxSH/universal-otherapp/releases/latest">universal-otherapp</a>, place <code>otherapp.bin</code> on the root of your SD card and rename it to <code>arm11code.bin</code>. Do not add the <code>.bin</code> extension if you do not already see it.</p>
+</details>
+<details class="note">
+<summary>"An error has occurred, forcing the software to close..." (white message box)</summary>
+<p>There may be an issue with your <code>arm11code.bin</code> file. Download the latest release of <a href="https://github.com/TuxSH/universal-otherapp/releases/latest">universal-otherapp</a>, place <code>otherapp.bin</code> on the root of your SD card and rename it to <code>arm11code.bin</code>. Do not add the <code>.bin</code> extension if you do not already see it.</p>
+<p>You can also try resetting your browser save data:</p>
+<ol>
+<li>Launch the browser, then launch the browser settings</li>
+<li>Scroll to the bottom and select "Reset Save Data" (it may also be called "Initialize Save Data" or "Clear All Save Data")</li>
+<li>Try the exploit again</li>
+</ol>
+</details>
+<details class="note">
+<summary>Opening the browserhax QR code or URL crashes</summary>
+<p>Browser based exploits (such as this one) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.</p>
+<ol>
+<li>Launch the browser, then launch the browser settings</li>
+<li>Scroll to the bottom and select "Reset Save Data" (it may also be called "Initialize Save Data" or "Clear All Save Data")</li>
+<li>Try the exploit again</li>
+</ol>
+</details>
+<details class="note">
+<summary>System Update prompt when opening browser</summary>
+<p>The SSLoth proxy was incorrectly configured. Re-do the SSLoth section on the page.</p>
+</details>
+<details class="note">
+<summary>Error 032-0420 when opening browser</summary>
+<p>Follow these steps in order:</p>
+<ol>
+<li>Launch System Settings on your console</li>
+<li>Navigate to <code>Internet Settings</code> -&gt; <code>Connection Settings</code></li>
+<li>Click on your network connection slot and navigate to <code>Change Settings</code> -&gt; <code>Next Page (right arrow)</code> -&gt; <code>Proxy Settings</code></li>
+<li>Set "Proxy Settings" to "No"</li>
+<li>Click OK, then click Save</li>
+<li>When prompted, click "Test" to perform the connection test<ul>
+<li>The test should succeed</li>
+</ul>
+</li>
+<li>Click "OK" to continue</li>
+<li>Press "Back" twice, then "Close" to go back to the HOME Menu</li>
+<li>Open the Internet Browser once</li>
+<li>If prompted about a system update, press OK<ul>
+<li>This won't actually update the system</li>
+</ul>
+</li>
+<li>Start again from <a href="installing-boot9strap-(ssloth-browser).html#section-ii---ssloth">Section II</a></li>
+</ol>
+</details>
+<details class="note">
+<summary>Frozen on "Doing agbhax..."</summary>
+<p>There may be an issue with your <code>arm11code.bin</code> file. Re-download the latest release of <a href="https://github.com/TuxSH/universal-otherapp/releases/latest">universal-otherapp</a>, place it on the root of your SD card, and rename it to <code>arm11code.bin</code>. Do not add the <code>.bin</code> extension if you do not already see it.</p>
+</details>
+<details class="note">
+<summary>"PrepareArm9ForTwl returned error c8804631!"</summary>
+<p>Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for assistance.</p>
+</details>
+<details class="note">
+<summary>Failed to mount the SD card!</summary>
+<p>Back up your data and reformat your SD card as FAT32 with the recommended tool depending on your operating system (<a href="formatting-sd-(windows)">Windows</a>, <a href="formatting-sd-(mac)">macOS</a>, <a href="formatting-sd-(linux)">Linux</a>). MiniTool Partition Wizard and the HP formatting tool (HPUSBDisk) are known to cause issues with 3DS SD cards.</p>
+<p>If this is unsuccessful, try using another SD card.</p>
+</details>
+<h2 id="installing-boot9strap-super-skaterhax">Installing boot9strap (super-skaterhax)</h2>
+<details class="note">
+<summary>"An error has occurred. Please save your data in any software currently in use, then restart the system."</summary>
+<p>The date is set incorrectly. To set it correctly, follow these steps:</p>
+<ol>
+<li>Select the System Settings icon on the HOME Menu, and tap Open.</li>
+<li>Tap Other Settings.</li>
+<li>Tap Date &amp; Time.</li>
+<li>Tap Today's date.</li>
+<li>Tap Up/Down Arrows to set the correct Day, Month and Year.</li>
+<li>Select OK to confirm.</li>
+</ol>
+<p>If the problem persists:</p>
+<ul>
+<li>Ensure that <code>arm11code.bin</code>, <code>browserhax_hblauncher_ropbin_payload.bin</code>, and <code>boot.3dsx</code> are on the root of the SD card (not inside of any folder)</li>
+<li>Ensure that you selected the correct payload for your region AND system version</li>
+<li>Ensure that your region settings look <a href="/images/screenshots/skater_lang.png">like this</a></li>
+<li>Try resetting your browser data:<ol>
+<li>Launch the browser, then launch the browser settings</li>
+<li>Scroll to the bottom and select "Reset Save Data" (it may also be called "Initilize Save Data" or "Clear All Save Data")</li>
+<li>Try the exploit again</li>
+</ol>
+</li>
+<li>Try changing the system language to something other than the current language</li>
+</ul>
+</details>
+<details class="note">
+<summary>"An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)</summary>
+<p>The file <code>arm11code.bin</code> is missing or misplaced. Make sure to copy the files of the <a href="https://github.com/zoogie/super-skaterhax/releases/latest">latest version of super-skaterhax</a> for your region and version to the root of your SD card (not inside of a folder).</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><img alt="" src="/images/screenshots/skater-root-layout.png" /></p>
+</div>
+</details>
+<details class="note">
+<summary>An exception occured or "DLL_HEAP_INFORMATION" when pressing GO! GO!</summary>
+<p>This likely indicates that you already have custom firmware. You should <a href="checking-for-cfw">check for CFW</a>.</p>
+</details>
+<h2 id="finalizing-setup">Finalizing Setup</h2>
+<details class="note">
+<summary>Unable to update console</summary>
+<p>The steps below can be attempted in any order, but are listed from easiest to hardest to perform.</p>
+<ol>
+<li>Set your DNS settings to "Auto"</li>
+<li>Move closer to your WiFi router</li>
+<li>Update from Safe Mode by turning off the console, holding (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A) on boot, and following the on-screen prompts</li>
+<li>Delete your WiFi connection, then reconnect to your WiFi again</li>
+<li>Reboot your WiFi router</li>
+<li>Connect to a different WiFi connection, like a mobile hotspot</li>
+<li>Nintendo servers may be down; Try again later</li>
+<li>If you still get an error, <a href="ctrtransfer">follow CTRTransfer</a>, then try again</li>
+<li>For further support (in English), join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a></li>
+</ol>
+</details>
+<details class="note">
+<summary>Error #02: Missing essential.exefs</summary>
+<p>You said 'No' to the "Make essential files backup?" prompt in GodMode9. Power off your console, power it on while holding (Start) to re-enter GodMode9, say 'Yes' to the prompt, then try again.</p>
+</details>
+<details class="note">
+<summary>Unable to open GodMode9 or Error #03: Missing files</summary>
+<p>You did not copy everything from <code>finalize.zip</code> to the root of your SD card. Remember, your SD card should have at least these files:</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><img alt="" src="/images/screenshots/finalizing-root-layout.png" /></p>
+</div>
+</details>
+<details class="note">
+<summary>Error #04: No space</summary>
+<p>You need at least 1.3GB of free space to perform the NAND backup, which is a part of the script. If you don't have enough space, follow these steps:</p>
+<ol>
+<li>Power off your console</li>
+<li>Remove the SD card and insert it into your computer</li>
+<li>Copy the <code>Nintendo 3DS</code> folder from the root of your SD card to your computer</li>
+<li>Delete the Nintendo 3DS folder from the SD card</li>
+<li>Reinsert your SD card into your console</li>
+<li>Power off your console</li>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Press the (Home) button</li>
+<li>Select "Scripts..."</li>
+<li>Select "finalize"</li>
+<li>Press (A) to create a NAND backup<ul>
+<li>This may take around fifteen minutes</li>
+</ul>
+</li>
+<li>Press (A) again<ul>
+<li>The console should automatically power off</li>
+</ul>
+</li>
+<li>Insert your SD card into your computer</li>
+<li>Copy the files in <code>/gm9/backups/</code> on your SD to a safe location on your computer</li>
+<li>Delete the <code>&lt;date&gt;_&lt;serialnumber&gt;_sysnand_##.bin</code> and <code>&lt;date&gt;_&lt;serialnumber&gt;_sysnand_##.bin.sha</code> files from the SD card</li>
+<li>Copy the <code>Nintendo 3DS</code> folder from your computer to the root of your SD card</li>
+<li>Delete the <code>Nintendo 3DS</code> folder from your computer</li>
+</ol>
+<p>Now that you have your NAND backup in a safe place:</p>
+<ol>
+<li>Reinsert your SD card into your console</li>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Press the (Home) button</li>
+<li>Select "Scripts..."</li>
+<li>Select "finalize"</li>
+<li>Continue the script as normal<ul>
+<li>The NAND backup will be automatically skipped</li>
+</ul>
+</li>
+</ol>
+</details>
+<details class="note">
+<summary>Information #05: No title database</summary>
+<p>Press (A) to import a title database, unlock SysNAND writing by entering the buttons on-screen, then continue the script as normal.</p>
+</details>
+<details class="note">
+<summary>Error #06 or "Error: Could not open directory" when attempting a NAND backup</summary>
+<p>Make sure you have at least 1.3GB available in your SD card. If you don't have enough space, follow these steps:</p>
+<ol>
+<li>Power off your console</li>
+<li>Remove the SD card and insert it into your computer</li>
+<li>Copy the <code>Nintendo 3DS</code> folder from the root of your SD card to your computer</li>
+<li>Delete the Nintendo 3DS folder from the SD card</li>
+<li>Reinsert your SD card into your console</li>
+<li>Power off your console</li>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Perform a <a href="godmode9-usage#creating-a-nand-backup">NAND Backup</a></li>
+<li>Copy the files in <code>gm9/out</code> on your SD to a safe location on your computer</li>
+<li>Delete the <code>&lt;date&gt;_&lt;serialnumber&gt;_sysnand_##.bin</code> and <code>&lt;date&gt;_&lt;serialnumber&gt;_sysnand_##.bin.sha</code> files from the SD card, keeping essential.exefs in <code>/gm9/out/</code></li>
+<li>Copy the <code>Nintendo 3DS</code> folder from your computer to the root of your SD card</li>
+<li>Delete the <code>Nintendo 3DS</code> folder from your computer</li>
+</ol>
+<p>If you have enough space on your SD card, your SD might be corrupted or faulty. Check your SD card for any errors by following the guide according to your computer's operating system: <a href="h2testw-(windows)">Windows</a>, <a href="f3-(linux)">Linux</a>, <a href="f3xswift-(mac)">macOS</a>.</p>
+</details>
+<details class="note">
+<summary>Error #09: Unsupported GodMode9 version</summary>
+<p>You are somehow running a version of GodMode9 not packaged with the script. Make sure you copied the contents of <code>finalize.zip</code> to the root of your SD card and that you are holding START while powering on your console.</p>
+</details>
+<details class="note">
+<summary>Error #11: Missing donor database</summary>
+<p>You did not copy everything from <code>finalize.zip</code> to the root of your SD card. Remember, your SD card should have at least these files:</p>
+<p><img alt="" src="/images/screenshots/finalizing-root-layout.png" /></p>
+</details>
+<details class="note">
+<summary>Error #12: Copy (file).db fail</summary>
+<p>Ensure that your SD card is not <a href="/images/sdlock.png">locked</a>. If the SD card is not locked and you continue to get this error, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for assistance.</p>
+</details>
+<details class="note">
+<summary>Information #17: Duplicate NAND backup</summary>
+<p>The script has detected that the Nintendo 3DS folder is missing AND that you have already made a NAND backup before. If you intend to install homebrew applications, you should do the following:</p>
+<ol>
+<li>Press (B) to cancel making another NAND backup</li>
+<li>Hold (R) and press (Start) at the same time to power off your console</li>
+<li>Copy the contents of <code>/gm9/backups/</code> to a safe location on your computer</li>
+<li>Delete <code>/gm9/backups/</code> from your SD card</li>
+<li>If you moved your Nintendo 3DS folder off of your SD card to get to this point, copy it back to your SD card<ul>
+<li>If you do not have a Nintendo 3DS folder, boot into the HOME Menu at least once with the SD card inserted to automatically generate it</li>
+</ul>
+</li>
+<li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+<li>Press (Home) to bring up the action menu</li>
+<li>Select "Scripts..."</li>
+<li>Select "finalize"</li>
+<li>Follow the prompts in the script, answering any questions that you are asked</li>
+</ol>
+</details>
+<hr />
+<h2 id="boot-issues-on-consoles-with-custom-firmware">Boot issues on consoles with custom firmware</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The steps detailed here generally assume that your console has a modern custom firmware setup (boot9strap + Luma3DS 8.0 or greater). If your console is running an older homebrew setup (for example, something based on arm9loaderhax or menuhax), you should update your setup before trying these instructions.</p>
+</div>
+<h3 id="powernotification-light-indicators">Power/notification light indicators</h3>
+<details class="note">
+<summary>My console powers off when I try to turn it on, and/or the notification LED shows a color on boot</summary>
+<p>There is an issue with your <code>boot.firm</code> file. If you're running <a href="https://github.com/SciresM/boot9strap/releases/tag/1.4">boot9strap 1.4</a>, your 3DS notification LED may flash a certain color. This color is used to diagnose issues involving your <code>boot.firm</code> file on SD card or internal memory. On older versions of boot9strap, the blue light will power off almost immediately when trying to turn on the console.</p>
+<p>If the notification LED flashes:</p>
+<ul>
+<li><strong>White</strong>: Your 3DS was not able to find <code>boot.firm</code> on your SD card or on internal memory.</li>
+<li><strong>Magenta</strong>: Your 3DS was not able to find <code>boot.firm</code> on your SD card. It was able to find <code>boot.firm</code> on internal memory, but the file is corrupted.</li>
+<li><strong>Red</strong>: Your 3DS was able to find <code>boot.firm</code> on both your SD card and on internal memory, but both files are corrupted.</li>
+</ul>
+<p>You can get a new <code>boot.firm</code> file by downloading the <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">latest release of Luma3DS</a>, extracting it, and placing <code>boot.firm</code> on the root of your SD card. If your <code>boot.firm</code> file is consistently being detected as corrupted, you may want to check your SD card for errors (<a href="h2testw-(windows)">Windows</a>, <a href="f3-(linux)">Linux</a>, or <a href="f3xswift-(mac)">macOS</a>). Also, note that the 3DS tends to have issues with files extracted using WinRAR.</p>
+<p>If you hear a "popping sound", potentially accompanied with the backlight turning on for a split second, there is a hardware issue with your console (such as a disconnected backlight cable). You may be able to get your console to boot by holding it at certain angles.</p>
+</details>
+<details class="note">
+<summary>My console gets stuck on a black screen with blue power light staying on</summary>
+<p>The steps below can be attempted in any order, but are listed from least to most time-consuming.</p>
+<ol>
+<li>Power off your console, remove the SD card, re-insert it, then power on your console.</li>
+<li>Power off your console, eject the game cartridge if inserted, power on your console, then wait up to ten minutes. If your console boots within ten minutes, the issue has been fixed and is unlikely to reoccur</li>
+<li>Rename the <code>Nintendo 3DS</code> folder on your SD card to <code>Nintendo 3DS_BACKUP</code>, then attempt to boot. If your console successfully boots, there is some issue within your <code>Nintendo 3DS</code> folder. Try clearing HOME Menu extdata:<ul>
+<li>Navigate to <code>/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/extdata/00000000/</code></li>
+<li>Delete the corresponding folder for your 3DS region:<ul>
+<li><strong>EUR Region</strong>: <code>00000098</code></li>
+<li><strong>JPN Region</strong>: <code>00000082</code></li>
+<li><strong>USA Region</strong>: <code>0000008f</code></li>
+<li><strong>CHN Region</strong>: <code>000000A1</code></li>
+<li><strong>KOR Region</strong>: <code>000000A9</code></li>
+<li><strong>TWN Region</strong>: <code>000000B1</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Try booting into recovery mode and updating your system:<ul>
+<li>Power off your console</li>
+<li>Hold (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A)</li>
+<li>Power on your console</li>
+<li>If you were successful, the console will boot to an "update your system" screen</li>
+</ul>
+</li>
+<li>Follow the <a href="ctrtransfer">CTRTransfer</a> guide</li>
+<li>For further support, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a></li>
+</ol>
+</details>
+<h3 id="error-message-on-boot">Error message on boot</h3>
+<details class="note">
+<summary>"An error has occurred: Failed to apply 1 FIRM patch(es)" or "An exception has occurred -- Current process: pm"</summary>
+<p>Your Luma3DS version is outdated. Download the latest release of <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> and place <code>boot.firm</code> on the root of your SD card, replacing any existing file. Make sure you are extracting the ZIP file with any tool other than WinRAR, as it is known to cause issues with 3DS-related files.</p>
+</details>
+<details class="note">
+<summary>"Unable to mount CTRNAND or load the CTRNAND FIRM. Please use an external one."</summary>
+<p>There are a number of reasons as to why this could be happening. In any case, this error can usually be fixed by following the <a href="ctrtransfer">CTRTransfer</a> guide.</p>
+</details>
+<details class="note">
+<summary>"An error has occurred. Hold down the POWER button to turn off the power..."</summary>
+<p>ARM11 exception handlers are disabled, or custom firmware is not installed. Try enabling ARM11 exception handlers:
+    + Power off your console
+    + Hold (Select)
+    + Power on your console, while still holding (Select)
+    + If the "Disable ARM11 exception handlers" box is checked, uncheck it</p>
+</details>
+<details class="note">
+<summary>HOME Menu is missing installed applications</summary>
+<p>This could be caused by various reasons, but most likely because your SD card is not being read by the system.
+You can check if your SD is being read by holding SELECT on boot and checking the yellow text on the bottom screen; if it says "Booted from CTRNAND via B9S", then your console is booting from the internal memory and not from the SD card.</p>
+<p>If this is the case, attempt the steps below, which are listed from easiest to hardest:</p>
+<ol>
+<li>Power off your console, remove the SD card, re-insert it, then power on your console</li>
+<li>Power off your console, remove the SD card, insert it on your PC, download the latest release of <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a>, extract <code>boot.firm</code> from the <code>Luma3DS.zip</code> and place it on the root of your SD card (replacing any existing file)</li>
+<li>Power off your console, remove the SD card, insert it on your PC and reformat your SD card according to your computer's operating system: <a href="formatting-sd-(windows)">Windows</a>, <a href="formatting-sd-(mac)">macOS</a>, <a href="formatting-sd-(linux)">Linux</a> <em>(this will wipe your SD card data)</em></li>
+<li>Test your SD card for errors by following the guide according to your computer's operating system: <a href="h2testw-(windows)">Windows</a>, <a href="f3-(linux)">Linux</a>, <a href="f3xswift-(mac)">macOS</a>. If your SD card is marked as faulty, then you will have to replace your SD card</li>
+<li>Your SD card slot may be broken. Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for further assistance</li>
+</ol>
+</details>
+<details class="note">
+<summary>Blue "BOOTROM ERROR" screen</summary>
+<p>Your console is likely hard-bricked. You will need to buy an ntrboot flashcart to reinstall boot9strap in order to attempt to fix your console. This may also indicate a hardware issue that cannot be fixed. In any case, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for assistance.
+    + It is also possible that someone has set a boot-time splash screen that just looks like a brick. Try leaving your console powered on, waiting on the blue screen, for five minutes.</p>
+</details>
+<details class="note">
+<summary>Some other error</summary>
+<p>Please take a photo of the error and join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for assistance.</p>
+</details>
+<h2 id="software-issues-on-consoles-with-custom-firmware">Software issues on consoles with custom firmware</h2>
+<details class="note">
+<summary>DSi / DS functionality is broken or has been replaced with Flipnote Studio</summary>
+<ol>
+<li>Download the latest release of <a href="https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest">TWLFix-CFW</a> (the <code>.3dsx</code> file)</li>
+<li>Power off your console</li>
+<li>Create a folder named <code>3ds</code> on the root of your SD card if it does not already exist</li>
+<li>Copy <code>TWLFix-CFW.3dsx</code> to the <code>/3ds/</code> folder on your SD card</li>
+<li>Reinsert your SD card into your console</li>
+<li>Open the Homebrew Launcher</li>
+<li>Launch TWLFix-CFW from the list of homebrew</li>
+<li>Press (A) to uninstall the broken TWL titles</li>
+<li>Press (Start) to reboot the console</li>
+<li>Update your console by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"<ul>
+<li>The update will see that the essential TWL titles have been uninstalled, and will redownload and reinstall them</li>
+</ul>
+</li>
+<li>Once the update is complete, tap "OK" to reboot the console</li>
+</ol>
+</details>
+<details class="note">
+<summary>GBA Virtual Console and/or Safe Mode functionality is broken</summary>
+<p>Your console is running Luma3DS 6.6 or older, likely via arm9loaderhax. You should follow <a href="a9lh-to-b9s">A9LH to B9S</a> to update your console to a modern custom firmware environment.</p>
+</details>
+<details class="note">
+<summary>Extended memory mode games (Pokemon Sun/Moon, Smash, etc.) don't work</summary>
+<p>This can occur after a CTRTransfer or region change on Old 3DS / 2DS. You will need to system format your console to fix this issue.</p>
+</details>
+<details class="note">
+<summary>Exception screen when booting/loading an application</summary>
+<p>Look for your exception screen in <a href="https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen">this page</a>.</p>
+<p>If you weren't able to find your error or the instructions didn't work, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for further assistance.</p>
+</details>
+<details class="note">
+<summary>Opening the HOME Menu settings crashes the console or loads the Homebrew Launcher</summary>
+<p>Your console likely still has menuhax67 installed. To uninstall menuhax67, download the latest release of <a href="https://github.com/zoogie/menuhax67/releases/latest">menuhax67</a> (the menuhax <code>.zip</code>), then follow the <a href="https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits/menuhax67#Uninstall_menuhax67">"Uninstall menuhax67" section</a> here.</p>
+</details>
+<hr />
+<h2 id="other-troubleshooting">Other troubleshooting</h2>
+<details class="note">
+<summary>Clear HOME Menu extdata</summary>
+<ol>
+<li>Power off your console</li>
+<li>Insert your SD card into your computer</li>
+<li>Navigate to the <code>/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/extdata/00000000/</code> folder on your SD card</li>
+<li>Delete the corresponding folder for your 3DS region:<ul>
+<li><strong>EUR Region</strong>: <code>00000098</code></li>
+<li><strong>JPN Region</strong>: <code>00000082</code></li>
+<li><strong>USA Region</strong>: <code>0000008f</code></li>
+<li><strong>CHN Region</strong>: <code>000000A1</code></li>
+<li><strong>KOR Region</strong>: <code>000000A9</code></li>
+<li><strong>TWN Region</strong>: <code>000000B1</code></li>
+</ul>
+</li>
+<li>Reinsert your SD card into your console</li>
+</ol>
+</details>
+<details class="note">
+<summary>Clear HOME Menu theme data</summary>
+<ol>
+<li>Power off your console</li>
+<li>Insert your SD card into your computer</li>
+<li>Navigate to the <code>/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/extdata/00000000/</code> folder on your SD card</li>
+<li>Delete the corresponding folder for your 3DS region:<ul>
+<li><strong>EUR Region</strong>: <code>000002ce</code></li>
+<li><strong>JPN Region</strong>: <code>000002cc</code></li>
+<li><strong>USA Region</strong>: <code>000002cd</code></li>
+</ul>
+</li>
+<li>Reinsert your SD card into your console</li>
+</ol>
+</details>
+<details class="note">
+<summary>Manually entering Homebrew Launcher</summary>
+<p>If you are missing the Homebrew Launcher application from your HOME Menu, you can follow these instructions to manually enter the Homebrew Launcher. (You will need <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">boot.3dsx and boot.firm</a> on the root of your SD card.)</p>
+<ol>
+<li>Launch the Download Play application (<img alt="" height="24px" src="/images/download-play-icon.png" width="24px" />)</li>
+<li>Wait until you see the <code>Nintendo 3DS</code> and <code>Nintendo DS</code> buttons</li>
+<li>Press (Left Shoulder) + (D-Pad Down) + (Select) at the same time to open the Rosalina menu</li>
+<li>Select "Miscellaneous options"</li>
+<li>Select "Switch the hb. title to the current app."</li>
+<li>Press (B) to continue</li>
+<li>Press (B) to return to the Rosalina main menu</li>
+<li>Press (B) to exit the Rosalina menu</li>
+<li>Press (Home) to suspend Download Play</li>
+<li>Press the "Close" button on the bottom screen to close Download Play</li>
+<li>Re-launch the Download Play application</li>
+<li>Your console should load the Homebrew Launcher<ul>
+<li>If your console is stuck on the loading splash screen, you are missing <code>boot.3dsx</code> from the root of your SD card</li>
+</ul>
+</li>
+</ol>
+</details>
+<details class="note">
+<summary>Turning off Parental Controls</summary>
+<p>You can disable the Parental Controls feature by going to System Settings -&gt; Parental Controls and inserting the PIN, then pressing "Clear Settings", then "Delete" to remove it.
+However, if you do not know the PIN and therefore cannot access the console's settings, you will need to disable it. In order to do this, you need to obtain your console's master key (mkey):
+1. Go to <a href="https://mkey.eiphax.tech/">this website</a>
+1. Fill the following boxes with the information:
+    + Device Type: Select "3DS" (the same applies if you are using a 2DS, New 3DS (XL/LL) or New 2DS (XL/LL))
+    + System Date: The day and month your console's clock is set to
+    + Inquiry Number: Can be obtained by pressing "Forgot PIN" then "I Forgot" in the Parental Controls screen
+1. After you have obtained your mkey, press OK on the screen you have obtained your Inquiry Number, then input the master key
+1. Press "Clear Settings", then "Delete" to remove all Parental Controls data</p>
+</details>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/Guide-3DS_mkdocs/credits">NH Discord Server</a>.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+    
+  </body>
+</html>

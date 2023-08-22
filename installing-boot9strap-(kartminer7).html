@@ -1,0 +1,1166 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="3DS Hacks Guide.">
+      
+      
+        <meta name="author" content="NH Discord Server.">
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.3">
+    
+    
+      
+        <title>Installing boot9strap (Kartminer7) - 3DS Hacks Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0e669242.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#what-you-need" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="3DS Hacks Guide" class="md-header__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3DS Hacks Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Installing boot9strap (Kartminer7)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="3DS Hacks Guide" class="md-nav__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    3DS Hacks Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-started.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="finalizing-setup.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finalizing Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extras
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Extras
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="a9lh-to-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A9LH to B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="checking-for-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checking for CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ctrtransfer.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTRTransfer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dumping-titles-and-game-cartridges.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dumping Titles and Game Cartridges
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="file-extensions-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    File Extensions (Windows)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Formatting SD
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Formatting SD
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="godmode9-usage.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GodMode9 Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="move-emunand.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Move EmuNAND
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="region-changing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Region Changing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="restoring-updating-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Restoring / Updating CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SD Error Testing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            SD Error Testing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="h2testw-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3xswift-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.13 or higher)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3x-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.12 or lower)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="updating-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="uninstall-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uninstall CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="troubleshooting.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="credits.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contribute.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="privacy-policy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="site-navigation.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Site Navigation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-need" class="md-nav__link">
+    What You Need
+  </a>
+  
+    <nav class="md-nav" aria-label="What You Need">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-i-preparing-mario-kart-7-data" class="md-nav__link">
+    Section I - Preparing Mario Kart 7 data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-ii-sd-card-prep-work" class="md-nav__link">
+    Section II - SD Card Prep Work
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-iii-installing-kartminer7" class="md-nav__link">
+    Section III - Installing Kartminer7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-iv-kartminer7" class="md-nav__link">
+    Section IV - Kartminer7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-v-installing-menuhax67" class="md-nav__link">
+    Section V - Installing menuhax67
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-vi-installing-boot9strap" class="md-nav__link">
+    Section VI - Installing boot9strap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-vii-removing-menuhax67" class="md-nav__link">
+    Section VII - Removing menuhax67
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Installing boot9strap (Kartminer7)</h1>
+
+<details class="info">
+<summary>Technical Details (optional)</summary>
+<p>To install boot9strap on your console, we derive your console's unique encryption key. To accomplish this, we use a tool called Seedminer to calculate the data encryption key (movable.sed) for your console.</p>
+<p>Once we have <code>movable.sed</code>, we can edit the SD card data of the game Mario Kart 7 to install menuhax67, which will allow us to get Homebrew Launcher access.</p>
+<p>Once we have Homebrew Launcher access, we can run nimdsphax to install boot9strap.</p>
+<p>See <a href="https://github.com/zoogie/kartminer7">here</a> for information about Kartminer7, <a href="https://github.com/zoogie/menuhax67">here</a> for information about menuhax67, and <a href="https://github.com/luigoalma/nimdsphax">here</a> for information about nimdsphax.</p>
+</details>
+<h3 id="what-you-need">What You Need</h3>
+<ul>
+<li>A physical or digital copy of Mario Kart 7 updated to the latest version (v1.2)<ul>
+<li>You can update Mario Kart 7 from eShop or by following the update prompt when you launch the game</li>
+</ul>
+</li>
+<li>A Windows computer</li>
+<li>Your <code>movable.sed</code> file from completing Seedminer</li>
+<li>The latest release of <a href="https://github.com/zoogie/Kartminer7/releases/latest">Kartminer7</a></li>
+<li>The latest release of <a href="https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip">boot9strap</a> (direct download)</li>
+<li>The latest release of <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a> (direct download)</li>
+<li>The latest release of <a href="https://github.com/luigoalma/nimdsphax/releases/download/v1.0/nimdsphax_v1.0.zip">nimdsphax</a> (direct download)</li>
+<li>The latest release of <a href="https://github.com/zoogie/menuhax67/releases/latest">menuhax67</a></li>
+<li>The latest release of <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (the Luma3DS <code>.zip</code> file)</li>
+</ul>
+<h4 id="section-i-preparing-mario-kart-7-data">Section I - Preparing Mario Kart 7 data</h4>
+<p>In this section, you will have the 3DS generate some data in Mario Kart 7 that will be used to install the exploit in a later section.</p>
+<ol>
+<li>Reinsert your SD card into your console</li>
+<li>Open Mario Kart 7</li>
+<li>Tap the "Mario Kart Channel" button on the bottom</li>
+<li>If you are prompted to, hit "Next" and "OK" to all of the prompts that you see</li>
+<li>Tap the "StreetPass List" button on the bottom of the screen, in the middle</li>
+<li>Press the (Home) button to suspend Mario Kart 7</li>
+<li>Disable wireless connections by flicking the wireless switch on the side of the console or by navigating to HOME Menu Settings (top left) -&gt; Wireless Communication -&gt; OFF</li>
+<li>Power off your console</li>
+</ol>
+<h4 id="section-ii-sd-card-prep-work">Section II - SD Card Prep Work</h4>
+<ol>
+<li>Insert your SD card into your computer</li>
+<li>Copy <code>boot.firm</code> and <code>boot.3dsx</code> from the Luma3DS <code>.zip</code> to the root of your SD card<ul>
+<li>The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it</li>
+</ul>
+</li>
+<li>Create a folder named <code>boot9strap</code> on the root of your SD card</li>
+<li>Copy <code>boot9strap.firm</code> and <code>boot9strap.firm.sha</code> from the boot9strap <code>.zip</code> to the <code>/boot9strap/</code> folder on your SD card</li>
+<li>Copy <code>SafeB9SInstaller.bin</code> to the root of your SD card</li>
+<li>Create a folder named <code>3ds</code> on the root of your SD card if it does not already exist<ul>
+<li>This folder stores homebrew applications and data; it is different from the <code>Nintendo 3DS</code> folder that the console automatically generates</li>
+</ul>
+</li>
+<li>Copy the <code>nimdsphax</code> folder from the nimdsphax <code>.zip</code> to the <code>/3ds/</code> folder on your SD card</li>
+<li>Copy <code>menuhax67_installer.3dsx</code> from the menuhax <code>.zip</code> to the <code>/3ds/</code> folder on your SD card</li>
+<li>Copy Launcher.dat from the folder for your model and region inside the menuhax <code>.zip</code> to the root of your SD card</li>
+<li>Keep your SD card inserted in your computer, as it is still required in the next section</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><img alt="" src="/images/screenshots/kart-root-layout.png" /></p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><img alt="" src="/images/screenshots/kart-3ds-layout.png" /></p>
+</div>
+<h4 id="section-iii-installing-kartminer7">Section III - Installing Kartminer7</h4>
+<ol>
+<li>Extract the Release_BETA_mk7 <code>.zip</code> to <strong>somewhere on your computer</strong> (i.e. your desktop)</li>
+<li>Copy your <code>movable.sed</code> file to the <code>resources</code> folder of the Release_BETA_mk7 folder<ul>
+<li>Ensure that the file is named exactly <code>movable.sed</code></li>
+</ul>
+</li>
+<li>Open the <code>backup</code> folder inside of the Release_BETA_mk7 folder</li>
+<li>Double-click on the BACKUP <code>.bat</code> file corresponding to your console's region (e.g. backup_USA.bat if you have a USA copy of Mario Kart 7)<ul>
+<li>If you are unsure of your console region, you can check System Settings. U = USA; E = EUR, J = JPN</li>
+<li>If you get a message from Windows Defender, click "More info", "Run anyway", then press any key to continue</li>
+<li>If the backup was successful, you should see a new folder appear</li>
+<li>If you wish to restore this data at a later date (after finishing this guide), insert your SD card and double-click on the RESTORE <code>.bat</code> file corresponding to your console's region</li>
+</ul>
+</li>
+<li>Go back to the Release_BETA_mk7 folder, then double-click on the <code>.bat</code> file corresponding to your console's region (e.g. USA.bat if you have a USA copy of Mario Kart 7)</li>
+<li>Reinsert your SD card into your console</li>
+</ol>
+<h4 id="section-iv-kartminer7">Section IV - Kartminer7</h4>
+<ol>
+<li>Power on your console</li>
+<li>Open Mario Kart 7</li>
+<li>Tap the "Mario Kart Channel" button on the bottom</li>
+<li>Tap the "StreetPass List" button on the bottom of the screen, in the middle</li>
+<li>Press (A) over and over again<ul>
+<li>You should eventually see the "Start Race?" prompt, then the colours on the bottom screen should change from red, to blue, to white</li>
+<li>If you see the red/blue/white screens but the 3DS crashes, just reboot and try again</li>
+<li>If you don't see ANY colours, change your system language (if possible), then try the exploit again</li>
+</ul>
+</li>
+<li>If the exploit was successful, the 3DS will have booted into the 3DS ROP xPloit Injector</li>
+</ol>
+<h4 id="section-v-installing-menuhax67">Section V - Installing menuhax67</h4>
+<ol>
+<li>Press (Y) + (D-Pad Down) to install menuhax67<ul>
+<li>The console will automatically power off</li>
+</ul>
+</li>
+<li>Power on your console</li>
+<li>Tap on the small HOME Menu settings icon in the top left of the bottom screen (<img alt="" height="32px" src="/images/homemenuicon.png" width="52px" />)<ul>
+<li>If the console freezes for a while and then crashes, make sure you have Launcher.dat on the root of your SD card</li>
+</ul>
+</li>
+<li>If the exploit was successful, your console will have booted into the Homebrew Launcher</li>
+<li>Launch nimdsphax from the list of homebrew</li>
+<li>If the exploit was successful, you will have booted into SafeB9SInstaller<ul>
+<li>If your console freezes on a red screen, hold the POWER button until it turns off, then try running menuhax again by powering on your console and tapping on the HOME Menu settings icon</li>
+</ul>
+</li>
+</ol>
+<h4 id="section-vi-installing-boot9strap">Section VI - Installing boot9strap</h4>
+<ol>
+<li>
+<p>When prompted, input the key combo given on the top screen to install boot9strap</p>
+<ul>
+<li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troubleshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+</ul>
+</li>
+<li>
+<p>Once it is complete, press (A) to reboot your console</p>
+</li>
+<li>Your console should have booted into the Luma3DS configuration menu<ul>
+<li>Luma3DS configuration menu are settings for the Luma3DS custom firmware. Many of these settings may be useful for customization or debugging</li>
+<li>For the purpose of this guide, <strong>leave these options on the default settings</strong> (do not check or uncheck anything)</li>
+<li>If your console shuts down when you try to power it on, ensure that you have copied <code>boot.firm</code> from the Luma3DS <code>.zip</code> to the root of your SD card</li>
+</ul>
+</li>
+<li>Press (Start) to save and reboot</li>
+</ol>
+<p>At this point, your console will boot to Luma3DS by default.</p>
+<ul>
+<li>Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.</li>
+<li>On the next page, you will install useful homebrew applications to complete your setup.</li>
+</ul>
+<h4 id="section-vii-removing-menuhax67">Section VII - Removing menuhax67</h4>
+<p>In this section, you will use the Homebrew Launcher to remove menuhax67, which will let you access the HOME Menu Settings option normally.</p>
+<ol>
+<li>Launch the Download Play application (<img alt="" height="24px" src="/images/download-play-icon.png" width="24px" />)</li>
+<li>Wait until you see the <code>Nintendo 3DS</code> and <code>Nintendo DS</code> buttons</li>
+<li>Press (Left Shoulder) + (D-Pad Down) + (Select) at the same time to open the Rosalina menu</li>
+<li>Select "Miscellaneous options"</li>
+<li>Select "Switch the hb. title to the current app."</li>
+<li>Press (B) to continue</li>
+<li>Press (B) to return to the Rosalina main menu</li>
+<li>Press (B) to exit the Rosalina menu</li>
+<li>Press (Home) to suspend Download Play</li>
+<li>Press the "Close" button on the bottom screen to close Download Play</li>
+<li>Re-launch the Download Play application</li>
+<li>
+<p>Your console should load the Homebrew Launcher</p>
+<ul>
+<li>If your console is stuck on the loading splash screen, you are missing <code>boot.3dsx</code> from the root of your SD card</li>
+</ul>
+</li>
+<li>
+<p>Launch menuhax67_installer from the list of homebrew</p>
+</li>
+<li>Select REMOVE menuhax67</li>
+<li>When you see "done.", press (A), then press (A) on "EXIT to menu"</li>
+</ol>
+<p class="notice-info">At this point, you can re-enable wireless communications.</p>
+<hr />
+<div class="admonition success">
+<p>Continue to <a href="finalizing-setup">Finalizing Setup</a></p>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/Guide-3DS_mkdocs/credits">NH Discord Server</a>.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+    
+  </body>
+</html>

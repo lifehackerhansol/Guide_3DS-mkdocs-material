@@ -1,0 +1,1122 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="3DS Hacks Guide.">
+      
+      
+        <meta name="author" content="NH Discord Server.">
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.3">
+    
+    
+      
+        <title>Installing boot9strap (SSLoth-Browser) - 3DS Hacks Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0e669242.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#compatibility-notes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="3DS Hacks Guide" class="md-header__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3DS Hacks Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Installing boot9strap (SSLoth-Browser)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="3DS Hacks Guide" class="md-nav__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    3DS Hacks Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-started.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="finalizing-setup.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finalizing Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extras
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Extras
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="a9lh-to-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A9LH to B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="checking-for-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checking for CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ctrtransfer.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTRTransfer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dumping-titles-and-game-cartridges.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dumping Titles and Game Cartridges
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="file-extensions-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    File Extensions (Windows)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Formatting SD
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Formatting SD
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="godmode9-usage.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GodMode9 Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="move-emunand.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Move EmuNAND
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="region-changing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Region Changing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="restoring-updating-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Restoring / Updating CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SD Error Testing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            SD Error Testing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="h2testw-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3xswift-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.13 or higher)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3x-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.12 or lower)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="updating-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="uninstall-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uninstall CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="troubleshooting.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="credits.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contribute.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="privacy-policy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="site-navigation.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Site Navigation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#compatibility-notes" class="md-nav__link">
+    Compatibility Notes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-need" class="md-nav__link">
+    What You Need
+  </a>
+  
+    <nav class="md-nav" aria-label="What You Need">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-i-prep-work" class="md-nav__link">
+    Section I - Prep Work
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-ii-ssloth" class="md-nav__link">
+    Section II - SSLoth
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-iii-launching-safeb9sinstaller" class="md-nav__link">
+    Section III - Launching SafeB9SInstaller
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-iv-installing-boot9strap" class="md-nav__link">
+    Section IV - Installing boot9strap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-v-restoring-default-proxy" class="md-nav__link">
+    Section V - Restoring default proxy
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#continue-to-finalizing-setup" class="md-nav__link">
+    Continue to Finalizing Setup
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Installing boot9strap (SSLoth-Browser)</h1>
+
+<details class="info">
+<summary>Technical Details (optional)</summary>
+<p>In order to exploit the Browser application, we need to bypass the browser version check, which is designed to disallow the use of the browser without updating to the latest system version.</p>
+<p>A public proxy server is available, which, with the help of the SSLoth exploit, can bypass this check.</p>
+<p>Once the bypass is active, an exploit webpage will be accessible which will do the rest of the job.</p>
+<p>For technical details on the exploits that you will be using on this page, see <a href="https://github.com/MrNbaYoh/3ds-ssloth">here</a> (SSLoth) and <a href="https://github.com/TuxSH/universal-otherapp">here</a> (universal-otherapp).</p>
+</details>
+<h3 id="compatibility-notes">Compatibility Notes</h3>
+<p>SSLoth allows users on version 11.13.0 and below to bypass the browser version check, allowing the use of new-browserhax or old-browserhax (compatible with versions 11.4.0 through 11.13.0 in all regions), which can then be used in conjunction with universal-otherapp.</p>
+<h3 id="what-you-need">What You Need</h3>
+<ul>
+<li>The latest release of <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a> (direct download)</li>
+<li>The latest release of <a href="https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip">boot9strap</a> (direct download)</li>
+<li>The latest release of <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (the Luma3DS <code>.zip</code> file)</li>
+<li>The latest release of <a href="https://github.com/TuxSH/universal-otherapp/releases/latest">universal-otherapp</a> (<code>otherapp.bin</code>)</li>
+</ul>
+<h4 id="section-i-prep-work">Section I - Prep Work</h4>
+<p>In this section, you will copy the files needed to trigger both browserhax and universal-otherapp.</p>
+<ol>
+<li>Power off your console</li>
+<li>Insert your SD card into your computer</li>
+<li>Copy <code>otherapp.bin</code> to the root of your SD card and rename it to <code>arm11code.bin</code><ul>
+<li>The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it</li>
+<li>If you do not see the <code>.bin</code> extension, do not add it to the end of the filename</li>
+</ul>
+</li>
+<li>Copy <code>boot.firm</code> and <code>boot.3dsx</code> from the Luma3DS <code>.zip</code> to the root of your SD card</li>
+<li>Create a folder named <code>boot9strap</code> on the root of your SD card</li>
+<li>Copy <code>boot9strap.firm</code> and <code>boot9strap.firm.sha</code> from the boot9strap <code>.zip</code> to the <code>/boot9strap/</code> folder on your SD card</li>
+<li>Copy <code>SafeB9SInstaller.bin</code> from the SafeB9SInstaller <code>.zip</code> to the root of your SD card</li>
+<li>Reinsert your SD card into your console</li>
+<li>Power on your console</li>
+</ol>
+<h4 id="section-ii-ssloth">Section II - SSLoth</h4>
+<p>In this section, you will change your Internet connection settings to use a proxy network designed to bypass the browser version check, allowing the browser to function without a system update. This will allow you to access the browser exploit webpage in the next section.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you haven't already, make sure you have a working Internet connection set up on your console.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A visual guide is available for this section <a href="/images/screenshots/set-proxy.png">here</a>.</p>
+</div>
+<ol>
+<li>Launch the System Settings application</li>
+<li>Navigate to <code>Internet Settings</code> -&gt; <code>Connection Settings</code></li>
+<li>Click on your network connection slot and navigate to <code>Change Settings</code> -&gt; <code>Next Page (right arrow)</code> -&gt; <code>Proxy Settings</code></li>
+<li>Set "Proxy Settings" to "Yes", then click <code>Detailed Setup</code></li>
+<li>Set the Proxy Server to <code>ssloth.nintendohomebrew.com</code>, and the Port to <code>8080</code></li>
+<li>Click OK, then click Save</li>
+<li>When prompted, click "Test" to perform the connection test<ul>
+<li>The test should succeed</li>
+</ul>
+</li>
+<li>
+<p>Click "OK" to continue</p>
+</li>
+<li>
+<p>Press "Back" twice, then "Close" to go back to the HOME Menu</p>
+</li>
+</ol>
+<h4 id="section-iii-launching-safeb9sinstaller">Section III - Launching SafeB9SInstaller</h4>
+<p>In this section, you will visit the browser exploit webpage, which will use universal-otherapp to launch the boot9strap (custom firmware) installer.</p>
+<ol>
+<li>On the HOME Menu, press the Left and Right shoulder buttons at the same time to open the camera<ul>
+<li>If you are unable to open the camera, open the Internet Browser and manually type the URL instead (<code>https://zoogie.github.io/web/nbhax/</code>)</li>
+</ul>
+</li>
+<li>Tap the QR code button and scan <a href="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L">this QR code</a><ul>
+<li>If you get a crash or an error code, <a href="troubleshooting#installing-boot9strap-ssloth-browser">follow this troubleshooting guide</a></li>
+<li>If you get a security certificate warning, press (A) to allow the connection</li>
+</ul>
+</li>
+<li>Tap the "PROCEED TO HAXX" button</li>
+<li>If the exploit was successful, you will have booted into SafeB9SInstaller<ul>
+<li>If you get an error, <a href="troubleshooting#installing-boot9strap-ssloth-browser">follow this troubleshooting guide</a></li>
+</ul>
+</li>
+</ol>
+<h4 id="section-iv-installing-boot9strap">Section IV - Installing boot9strap</h4>
+<p>In this section, you will install custom firmware onto your console.</p>
+<ol>
+<li>
+<p>When prompted, input the key combo given on the top screen to install boot9strap</p>
+<ul>
+<li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troubleshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+</ul>
+</li>
+<li>
+<p>Once it is complete, press (A) to reboot your console</p>
+</li>
+<li>Your console should have booted into the Luma3DS configuration menu<ul>
+<li>Luma3DS configuration menu are settings for the Luma3DS custom firmware. Many of these settings may be useful for customization or debugging</li>
+<li>For the purpose of this guide, <strong>leave these options on the default settings</strong> (do not check or uncheck anything)</li>
+<li>If your console shuts down when you try to power it on, ensure that you have copied <code>boot.firm</code> from the Luma3DS <code>.zip</code> to the root of your SD card</li>
+</ul>
+</li>
+<li>Press (Start) to save and reboot</li>
+</ol>
+<p>At this point, your console will boot to Luma3DS by default.</p>
+<ul>
+<li>Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.</li>
+<li>On the next page, you will install useful homebrew applications to complete your setup.</li>
+</ul>
+<h4 id="section-v-restoring-default-proxy">Section V - Restoring default proxy</h4>
+<p>In this section, you will restore the Internet settings back to normal.</p>
+<ol>
+<li>Launch the System Settings application</li>
+<li>Navigate to <code>Internet Settings</code> -&gt; <code>Connection Settings</code></li>
+<li>Click on your network connection slot and navigate to <code>Change Settings</code> -&gt; <code>Next Page (right arrow)</code> -&gt; <code>Proxy Settings</code></li>
+<li>Set "Proxy Settings" to "No"</li>
+<li>Click OK, then click Save</li>
+<li>When prompted, click "Test" to perform the connection test<ul>
+<li>The test should succeed</li>
+</ul>
+</li>
+<li>Power off your console</li>
+</ol>
+<hr />
+<div class="admonition success">
+<h3 id="continue-to-finalizing-setup">Continue to <a href="finalizing-setup">Finalizing Setup</a></h3>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/Guide-3DS_mkdocs/credits">NH Discord Server</a>.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+    
+  </body>
+</html>

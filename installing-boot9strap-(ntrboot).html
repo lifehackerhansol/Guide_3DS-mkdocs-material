@@ -1,0 +1,1298 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="3DS Hacks Guide.">
+      
+      
+        <meta name="author" content="NH Discord Server.">
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.3">
+    
+    
+      
+        <title>Installing boot9strap (ntrboot) - 3DS Hacks Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0e669242.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#required-reading" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="3DS Hacks Guide" class="md-header__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3DS Hacks Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Installing boot9strap (ntrboot)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="3DS Hacks Guide" class="md-nav__button md-logo" aria-label="3DS Hacks Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    3DS Hacks Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-started.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="finalizing-setup.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finalizing Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extras
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Extras
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="a9lh-to-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A9LH to B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="checking-for-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checking for CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ctrtransfer.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTRTransfer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dumping-titles-and-game-cartridges.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dumping Titles and Game Cartridges
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="file-extensions-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    File Extensions (Windows)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Formatting SD
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Formatting SD
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formatting-sd-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="godmode9-usage.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GodMode9 Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="move-emunand.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Move EmuNAND
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="region-changing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Region Changing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="restoring-updating-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Restoring / Updating CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SD Error Testing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            SD Error Testing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="h2testw-%28windows%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3xswift-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.13 or higher)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3x-%28mac%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    macOS (10.12 or lower)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="f3-%28linux%29.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="updating-b9s.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating B9S
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="uninstall-cfw.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uninstall CFW
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="troubleshooting.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="credits.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contribute.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="privacy-policy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="site-navigation.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Site Navigation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#required-reading" class="md-nav__link">
+    Required Reading
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-need" class="md-nav__link">
+    What You Need
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+    <nav class="md-nav" aria-label="Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-i-prep-work" class="md-nav__link">
+    Section I - Prep Work
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-ii-ntrboot" class="md-nav__link">
+    Section II - ntrboot
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-iii-installing-boot9strap" class="md-nav__link">
+    Section III - Installing boot9strap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-iv-configuring-luma3ds" class="md-nav__link">
+    Section IV - Configuring Luma3DS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#continue-to-finalizing-setup" class="md-nav__link">
+    Continue to Finalizing Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Continue to Finalizing Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-v-removing-ntrboot" class="md-nav__link">
+    Section V - Removing ntrboot
+  </a>
+  
+    <nav class="md-nav" aria-label="Section V - Removing ntrboot">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-you-need_1" class="md-nav__link">
+    What You Need
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instructions_1" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Installing boot9strap (ntrboot)</h1>
+
+<h3 id="required-reading">Required Reading</h3>
+<p>To use the <a href="https://wikipedia.org/wiki/Magnet_URI_scheme">magnet</a> links on this page, you will need a torrent client like <a href="https://www.qbittorrent.org/download.php">qBittorrent</a> or <a href="http://dev.deluge-torrent.org/wiki/Download">Deluge</a>.</p>
+<h3 id="what-you-need">What You Need</h3>
+<ul>
+<li>A magnet that triggers the sleep mode of your console (if using a folding style console)</li>
+<li>Your ntrboot flashed flashcart</li>
+<li>The latest release of <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a> (direct download)</li>
+<li>The latest release of <a href="https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip">boot9strap</a> (direct download)</li>
+<li>The latest release of <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (the Luma3DS <code>.zip</code> file)</li>
+</ul>
+<h3 id="instructions">Instructions</h3>
+<h4 id="section-i-prep-work">Section I - Prep Work</h4>
+<ol>
+<li>Power off your console</li>
+<li>Insert your console's SD card into your computer<ul>
+<li>This is the SD card from your 3DS, <em>not</em> the SD card from your flashcart</li>
+</ul>
+</li>
+<li>Copy <code>SafeB9SInstaller.firm</code> from the SafeB9SInstaller <code>.zip</code> to the root of your SD card and rename it to <code>boot.firm</code><ul>
+<li>The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it</li>
+</ul>
+</li>
+<li>Copy <code>boot.3dsx</code> from the Luma3DS <code>.zip</code> to the root of your console's SD card</li>
+<li>Create a folder named <code>boot9strap</code> on the root of your console's SD card</li>
+<li>
+<p>Copy <code>boot9strap.firm</code> and <code>boot9strap.firm.sha</code> from the boot9strap <code>.zip</code> to the <code>/boot9strap/</code> folder on your console's SD card</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><img alt="" src="/images/screenshots/boot9strap-ntrboot-file-layout.png" /></p>
+</div>
+</li>
+<li>
+<p>Reinsert your SD card into your console</p>
+</li>
+<li>Power on your console</li>
+</ol>
+<h4 id="section-ii-ntrboot">Section II - ntrboot</h4>
+<ol>
+<li>Use the magnet to find the spot on your console where the sleep sensor is triggered<ul>
+<li>This step is not needed on the old 2DS (which has a sleep mode switch)</li>
+</ul>
+</li>
+<li>Power off your console</li>
+<li>Insert your flashcart into your console</li>
+<li>Place the magnet on your console to trigger the sleep sensor<ul>
+<li>On old 2DS, you should instead enable the sleep mode switch</li>
+</ul>
+</li>
+<li>Hold (Start) + (Select) + (X) + (Power) for several seconds, then release the buttons<ul>
+<li>It may take a few attempts to get this to work because the positioning is awkward</li>
+</ul>
+</li>
+<li>If the exploit was successful, you will have booted into SafeB9SInstaller</li>
+<li>Remove the magnet from your console<ul>
+<li>On old 2DS, you should instead disable the sleep mode switch</li>
+</ul>
+</li>
+</ol>
+<h4 id="section-iii-installing-boot9strap">Section III - Installing boot9strap</h4>
+<p>In this section, you will install custom firmware onto your console.</p>
+<ol>
+<li>
+<p>When prompted, input the key combo given on the top screen to install boot9strap</p>
+<ul>
+<li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troubleshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+</ul>
+</li>
+<li>
+<p>Once it is completed, force your console to power off by holding down the power button</p>
+<ul>
+<li>Your console will only boot to the SafeB9SInstaller screen until the next section is completed</li>
+</ul>
+</li>
+</ol>
+<h4 id="section-iv-configuring-luma3ds">Section IV - Configuring Luma3DS</h4>
+<ol>
+<li>Insert your console's SD card into your computer</li>
+<li>Delete <code>boot.firm</code> from the root of your SD card</li>
+<li>Copy <code>boot.firm</code> from the Luma3DS <code>.zip</code> to the root of your SD card</li>
+<li>Reinsert your SD card into your console</li>
+<li>Power on your console</li>
+<li>Your console should have booted into the Luma3DS configuration menu<ul>
+<li>Luma3DS configuration menu are settings for the Luma3DS custom firmware. Many of these settings may be useful for customization or debugging</li>
+<li>For the purpose of this guide, <strong>leave these options on the default settings</strong> (do not check or uncheck anything)</li>
+<li>If your console shuts down when you try to power it on, ensure that you have copied <code>boot.firm</code> from the Luma3DS <code>.zip</code> to the root of your SD card</li>
+</ul>
+</li>
+<li>Press (Start) to save and reboot</li>
+</ol>
+<p>At this point, your console will boot to Luma3DS by default.</p>
+<ul>
+<li>Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.</li>
+<li>On the next page, you will install useful homebrew applications to complete your setup.</li>
+</ul>
+<hr />
+<div class="admonition success">
+<h3 id="continue-to-finalizing-setup">Continue to <a href="finalizing-setup">Finalizing Setup</a></h3>
+</div>
+<hr />
+<p>The following is an optional section that will allow you to restore your flashcart to its original state (to allow it to be used for its standard functions).</p>
+<p>Note that the Acekard 2i retains its ability to launch <code>.nds</code> files while having the ntrboot exploit installed. This only applies when the Acekard 2i is in an NDS or custom firmware 3DS! While the ntrboot exploit is installed to the Acekard 2i, it will be unable to launch <code>.nds</code> files on DSi or stock 3DS systems.</p>
+<p>Do not follow this section until you have completed the rest of the instructions on this page.</p>
+<h4 id="section-v-removing-ntrboot">Section V - Removing ntrboot</h4>
+<h5 id="what-you-need_1">What You Need</h5>
+<ul>
+<li>The latest release of <a href="https://github.com/ntrteam/ntrboot_flasher/releases/latest">ntrboot_flasher</a> (<code>ntrboot_flasher.firm</code>)</li>
+<li>The flashrom backup corresponding to your flashcart<ul>
+<li>Note that if you followed <a href="flashing-ntrboot-(3ds-multi-system)">Flashing ntrboot (3DS Multi System)</a>, the flashrom backup already exists in the correct location and does not need to be downloaded</li>
+<li>Note that if you followed <a href="flashing-ntrboot-(3ds-single-system)">Flashing ntrboot (3DS Single System)</a> or <a href="flashing-ntrboot-(nds)">Flashing ntrboot (NDS)</a>, the flashrom backup already exists on your flashcart's SD card and should be copied to the location specified below</li>
+<li>If you do not know which HW revision you have, just try each for your cart of them. Only the correct one will allow your flashcart to launch properly from the HOME Menu, but flashing the wrong one will not brick the cart</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Flashcart</th>
+<th style="text-align: center;">Hardware Revision</th>
+<th style="text-align: center;">Flashrom</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ace3DS X</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>N/A</em></td>
+</tr>
+<tr>
+<td><strong>Acekard 2i</strong></td>
+<td style="text-align: center;">HW 81</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:71ce385a1d65e28719c419fe58d171a4873501ff&amp;dn=Acekard_2i_(HW_81)-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce">Acekard_2i_(HW_81)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>Acekard 2i</strong></td>
+<td style="text-align: center;">HW 44</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:d04bd19e15bf8600ccef6540bdbd043846888132&amp;dn=Acekard_2i_(HW_44)-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce">Acekard_2i_(HW_44)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>DSTT</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>Missing</em></td>
+</tr>
+<tr>
+<td><strong>Infinity 3 R4i</strong></td>
+<td style="text-align: center;">HW A5</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:c6dee8cc9535d58284ccb8430c9af4682c3e1efc&amp;dn=R4i_Gold_3DS_(HW_A5)-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce">R4i_Gold_3DS_(HW_A5)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4 3D Revolution</strong></td>
+<td style="text-align: center;">HW A6</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:e1675722834b870ea64ddf1ef9ca77d78db2be00&amp;dn=R4i_Gold_3DS_(HW_A6)-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce">R4i_Gold_3DS_(HW_A6)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS Deluxe "Starter"</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>Missing</em></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS</strong></td>
+<td style="text-align: center;">HW 4</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:a742778ade94b4a0b877cc481ba0f1a4120262da&amp;dn=R4i_Gold_3DS_(HW_4)-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce">R4i_Gold_3DS_(HW_4)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS</strong></td>
+<td style="text-align: center;">HW 5</td>
+<td style="text-align: center;"><em>Missing</em></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS</strong></td>
+<td style="text-align: center;">HW 6</td>
+<td style="text-align: center;"><em>Missing</em></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS</strong></td>
+<td style="text-align: center;">HW 7</td>
+<td style="text-align: center;"><em>Missing</em></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS</strong></td>
+<td style="text-align: center;">HW 8</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:e56429289034529f05023b3d4722ed66f6270338&amp;xt=urn:btmh:122088bafa255809c2cd458edfce96e3dd463ce819ce05c9d335db1dafd54c254195&amp;dn=R4i_Gold_3DS_(HW_8)-Flashrom.zip&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&amp;tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&amp;tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&amp;tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&amp;tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce">R4i_Gold_3DS_(HW_8)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS</strong></td>
+<td style="text-align: center;">HW D</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:0a074dd475a26166d90ae26e313dcbc6d51cfa12&amp;dn=R4i_Gold_3DS_(HW_D)-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce">R4i_Gold_3DS_(HW_D)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS Plus</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><em>N/A</em></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS RTS</strong></td>
+<td style="text-align: center;">HW A5</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:c6dee8cc9535d58284ccb8430c9af4682c3e1efc&amp;dn=R4i_Gold_3DS_(HW_A5)-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce">R4i_Gold_3DS_(HW_A5)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS RTS</strong></td>
+<td style="text-align: center;">HW A6</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:e1675722834b870ea64ddf1ef9ca77d78db2be00&amp;dn=R4i_Gold_3DS_(HW_A6)-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce">R4i_Gold_3DS_(HW_A6)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4i Gold 3DS RTS</strong></td>
+<td style="text-align: center;">HW A7</td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:d780a1fbcb83d0d3c99748c87534f77957da98ce&amp;dn=R4i_Gold_3DS_(HW_A7)-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce">R4i_Gold_3DS_(HW_A7)-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4i Ultra</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:e2a080eb70b92d3127ffea2a5be6bbdb1928a438&amp;dn=R4i_Ultra-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce">R4i_Ultra-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4i-SDHC 3DS RTS</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:dc5aeeb4bfffd09d10f1d9f20179df3e74223fd1&amp;dn=R4i-SDHC_3DS_RTS_B9S-Flashrom.zip&amp;tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&amp;tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&amp;tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&amp;tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&amp;tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&amp;tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce">R4i-SDHC_3DS_RTS_B9S-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4i-SDHC B9S</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:dc5aeeb4bfffd09d10f1d9f20179df3e74223fd1&amp;dn=R4i-SDHC_3DS_RTS_B9S-Flashrom.zip&amp;tr=udp%3a%2f%2fbt2.archive.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.bitsearch.to%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.dler.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker-udp.gbitt.info%3a80%2fannounce&amp;tr=udp%3a%2f%2fretracker.netbynet.ru%3a2710%2fannounce&amp;tr=udp%3a%2f%2fretracker.lanta-net.ru%3a2710%2fannounce&amp;tr=udp%3a%2f%2fopentor.org%3a2710%2fannounce&amp;tr=udp%3a%2f%2fmts.tvbit.co%3a6969%2fannounce&amp;tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce">R4i-SDHC_3DS_RTS_B9S-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4iSDHC GOLD Pro 20XX</strong> from r4isdhc <strong>.com</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:d16817f7fdd0eac18d71d2ebd73d51315389d90e&amp;dn=R4iSDHC.com_20XX-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce">R4iSDHC.com_20XX-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4iSDHC RTS LITE 20XX</strong> from r4isdhc <strong>.com</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:d16817f7fdd0eac18d71d2ebd73d51315389d90e&amp;dn=R4iSDHC.com_20XX-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce">R4iSDHC.com_20XX-Flashrom.zip</a></td>
+</tr>
+<tr>
+<td><strong>R4iSDHC Dual-Core 20XX</strong> from r4isdhc <strong>.com</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - <a href="magnet:?xt=urn:btih:d16817f7fdd0eac18d71d2ebd73d51315389d90e&amp;dn=R4iSDHC.com_20XX-Flashrom.zip&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&amp;tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&amp;tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce">R4iSDHC.com_20XX-Flashrom.zip</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="instructions_1">Instructions</h5>
+<ol>
+<li>Power off your console</li>
+<li>Insert your SD card into your computer<ul>
+<li>This is the SD card from your 3DS, <em>not</em> the SD card from your flashcart</li>
+</ul>
+</li>
+<li>Create a folder named <code>ntrboot</code> on the root of your SD card</li>
+<li>Copy the <code>.bin</code> file from your flashrom backup <code>.zip</code> to the <code>/ntrboot/</code> folder on the root of your SD card</li>
+<li>Create a folder named <code>payloads</code> in the <code>luma</code> folder on your SD card</li>
+<li>Copy <code>ntrboot_flasher.firm</code> to the <code>/luma/payloads/</code> folder on your SD card</li>
+<li>Reinsert your SD card into your console</li>
+<li>Insert your ntrboot compatible DS / DSi flashcart into your console</li>
+<li>Launch ntrboot_flasher by holding (Start) during boot</li>
+<li>Read the red screen warning</li>
+<li>Press (A) to continue</li>
+<li>Select your flashcart<ul>
+<li>If you do not see your flashcart in the list at the top, read the bottom screen for more info on each option</li>
+</ul>
+</li>
+<li>Select "Restore Flash"</li>
+<li>Press (A) to proceed</li>
+<li>Wait until the process is completed</li>
+<li>Press (A) to return to the main menu</li>
+<li>Press (B) to power off your console</li>
+</ol>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/Guide-3DS_mkdocs/credits">NH Discord Server</a>.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+    
+  </body>
+</html>
