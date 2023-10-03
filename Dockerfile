@@ -21,9 +21,10 @@ COPY _pages _pages
 COPY _configs _configs
 COPY extras extras
 COPY mkdocs-base-config.yml .
+COPY build-site.sh .
 
 # Build site
-RUN python3 -m mkdocs build --verbose --clean
+RUN chmod +x build-site.sh && ./build-site.sh
 RUN cp -r /opt/nginx-testing/site/* /usr/share/nginx/html/
 
 COPY nginx-test.conf /etc/nginx/conf.d/default.conf

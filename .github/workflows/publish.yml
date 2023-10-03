@@ -40,7 +40,9 @@ jobs:
       - name: Run Mkdocs
         # Build the site using mkdocs
         # no strict mode for now, get-started throws an error
-        run: mkdocs build --verbose --clean
+        run: |
+          chmod +x build-site.sh
+          ./build-site.sh
 
       - name: Post-Mkdocs touch/copy files
         # miscellaneous files needed for GitHub etc
