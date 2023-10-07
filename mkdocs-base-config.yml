@@ -5,22 +5,33 @@ use_directory_urls: false
 theme: 
   name: material
   custom_dir: ../../extras
+
+  features:
+    - toc.integrate
+    - navigation.instant
+    - navigation.expand
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tracking
+
   palette:
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep purple
+      scheme: default 
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/brightness-7
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: green
       toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+        icon: material/brightness-4
+        name: Switch to system preference
 
 extra_css:
   - assets/css/selecting.css
+  - assets/css/custom.css
 
 markdown_extensions:
   - admonition
