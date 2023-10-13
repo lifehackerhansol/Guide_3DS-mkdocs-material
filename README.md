@@ -7,15 +7,20 @@ https://3ds.hacks.guide/
 ## Running the site locally
 
 This requires the following installed on your system:
-- ruby(-dev)
-- bundler
+- Docker
 
 To test the website locally, simply run the following commands:
 
 ```sh
-bundle config set --local path vendor/bundle
-bundle install
-bundle exec jekyll serve
+docker compose up --build -d
 ```
 
-The website should now be running on http://127.0.0.1:4000/.
+The website should now be running on http://127.0.0.1:8080/.
+
+To shut down the test server, run the following command:
+
+```sh
+docker compose down
+```
+
+Note that this does not auto-rebuild the site upon changes. You must shut down and start manually.
